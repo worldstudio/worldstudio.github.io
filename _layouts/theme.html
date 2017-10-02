@@ -1,0 +1,85 @@
+---
+layout: greyPageResources
+---
+
+<div class="container main individual">
+	<!-- start of content -->
+	<div class="section col-1">
+		<h3>{{ page.issue }}</h3> 
+		<div class="clear"></div>
+		<p><strong>{{ page.artist_name }}<br>
+		{{ page.organization_name }}</strong></p> 
+		<br />
+	</div>
+	<div class="section col-2-3">
+		<div class="feature"><img alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}"></div> 
+	</div>
+	<div class="section col-4-5">
+	
+		<h1>{{ page.quote }}</h1><a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}+%23SocialJustice&via=art_forarts"><button>Tweet this quote</button></a>
+		
+		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} -->
+
+	</div>
+	<div class="section col-2-5">
+		<br>
+		<h3>{{ page.main_entry }}</h3>
+	</div>
+	<div class="section col-2-3">
+			<p>
+			{{ page.left_p_html | newline_to_br }}
+			</p>
+	</div>
+	<div class="section col-4-5">
+			<p>
+				{{ page.right_p_html | newline_to_br }}
+			</p>
+			<div class="clear">
+				<br /><br /><br /><br />
+			</div>
+	</div>
+
+	<div class="section col-1-5">
+		<div class="rule"></div>
+	</div>
+	<div class="section col-1">
+		<br>
+		<h3>Collaborators</h3>
+	</div>
+	<div class="section col-2-3">
+		<br>
+		<p><strong>{{ page.artist_name }}</strong></p>
+			<p>
+				{{ page.artist_bio_html | newline_to_br }}
+			</p>
+			<br />
+		<div class="third">
+			<a href="{{ page.artist_url }}"><img alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
+		</div>
+		<div class="clear">
+			<br>
+			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
+		</div>
+		<br>
+	
+	</div>
+	<div class="section col-4-5">
+		<br>
+		<p><strong>{{ page.organization_name }}</strong></p>
+			<p>
+				{{ page.organization_bio_html | newline_to_br }}
+			</p>
+		<div class="clear">
+			<br />
+			<div class="half">
+				<a href="{{ page.organization_url }}"><img alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
+			</div>
+			<div class="clear">
+				<br>
+			</div><a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
+		</div>
+	</div>
+		<br /><br /><br /><br />
+</div>
+						
+
