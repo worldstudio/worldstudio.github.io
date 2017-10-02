@@ -1,9 +1,9 @@
 ---
-image_path:
-issue:
-artist_name:
-artist_name_short:
-artist_url:
+image_path: /img/poster-placeholder.png
+issue: Homelessness
+artist_name: Mark Randall
+artist_name_short: Mark
+artist_url: Mark.com
 artist_image:
 artist_bio_html:
 organization_name:
@@ -28,3 +28,5 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
+
+
