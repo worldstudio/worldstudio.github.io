@@ -1,6 +1,16 @@
 ---
 image_path: /img/access-to-arts-education.jpg
 issue: Access to arts education
+quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum id hendrerit.
+main_entry: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum id hendrerit euismod, quam felis congue lorem, vitae gravida ipsum arcu eget sem. Aenean nulla magna, molestie sed leo a, tincidunt aliquam velit. Aliquam erat volutpat.
+left_p_html: |
+ Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
+
+ Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit.
+right_p_html: |
+ Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
+
+ Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum cursus.
 artist_name: Rafael Esquer
 artist_name_short: Rafael
 artist_url: http://alfalfastudio.com/
@@ -15,14 +25,4 @@ organization_url: http://openingact.org/
 organization_image: /img/organizations/opening-act.png 
 organization_bio_html: |
  Founded in 2000 by actors and educators, Opening Act seeks to level the playing field for our students by specifically partnering with NYC schools that have lower than average graduation rates (as few as 33% of students graduating in four years) and a lack of theater programming. Opening Act gives high school students opportunities to develop leadership, community, and commitment through its innovative, high quality, free, After-School Theater Program.
-quote: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum id hendrerit.
-main_entry: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum id hendrerit euismod, quam felis congue lorem, vitae gravida ipsum arcu eget sem. Aenean nulla magna, molestie sed leo a, tincidunt aliquam velit. Aliquam erat volutpat.
-left_p_html: |
- Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
-
- Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit.
-right_p_html: |
- Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
-
- Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum cursus.
 ---

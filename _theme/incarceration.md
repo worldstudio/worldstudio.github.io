@@ -1,6 +1,28 @@
 ---
 image_path: /img/chwast-vera.png
 issue: Incarceration
+quote: >-
+  The U.S. has 5% of the world's population, and 25% of the world's
+  incarcerated.
+main_entry: >-
+  America is at a tipping point. In a country that continues to lead the world
+  in locking up its own people, mass incarceration has emerged as a defining
+  civil rights issue. In a time of deep ideological divides, the fight for
+  justice is more urgent than ever.
+left_p_html: >-
+  <p>And it starts in local jails in nearly every community, where millions of
+  men and women &ndash; who are presumed innocent -&nbsp; are locked up over the
+  course of a year. Most are behind bars for minor offenses, and held because
+  they are simply too poor to post bail. Runaway use of incarceration
+  dehumanizes people, and targets and damages already marginalized communities
+  &ndash; people who are poor, people of color, people with mental illness.</p>
+right_p_html: >-
+  <p>The need to reform our criminal justice system remains a point of agreement
+  among public leaders of red and blue states alike, as well as the local
+  government actors who are in charge of delivering much needed changes to our
+  nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
+  solutions are in our backyards. Together we can build stronger communities
+  and, overall, a safer U.S.</p><p>&nbsp;</p>
 artist_name: Seymour Chwast
 artist_name_short: Seymour
 artist_url: 'http://seymourchwastarchive.com/'
@@ -30,26 +52,4 @@ organization_bio_html: >-
   Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et
   turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae
   metus lacinia commodo nunc rutrum cursus.</p>
-quote: >-
-  The U.S. has 5% of the world's population, and 25% of the world's
-  incarcerated.
-main_entry: >-
-  America is at a tipping point. In a country that continues to lead the world
-  in locking up its own people, mass incarceration has emerged as a defining
-  civil rights issue. In a time of deep ideological divides, the fight for
-  justice is more urgent than ever.
-left_p_html: >-
-  <p>And it starts in local jails in nearly every community, where millions of
-  men and women &ndash; who are presumed innocent -&nbsp; are locked up over the
-  course of a year. Most are behind bars for minor offenses, and held because
-  they are simply too poor to post bail. Runaway use of incarceration
-  dehumanizes people, and targets and damages already marginalized communities
-  &ndash; people who are poor, people of color, people with mental illness.</p>
-right_p_html: >-
-  <p>The need to reform our criminal justice system remains a point of agreement
-  among public leaders of red and blue states alike, as well as the local
-  government actors who are in charge of delivering much needed changes to our
-  nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
-  solutions are in our backyards. Together we can build stronger communities
-  and, overall, a safer U.S.</p><p>&nbsp;</p>
 ---

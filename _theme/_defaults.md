@@ -1,6 +1,10 @@
 ---
 image_path:
 issue:
+quote:
+main_entry:
+left_p_html:
+right_p_html:
 artist_name:
 artist_name_short:
 artist_url:
@@ -11,10 +15,6 @@ organization_name_short:
 organization_url:
 organization_image:
 organization_bio_html:
-quote:
-main_entry:
-left_p_html:
-right_p_html:
 
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
