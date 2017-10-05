@@ -4,7 +4,9 @@ layout: menuFooter
 
 <body id="home">
 <div class="container main">
+<div class="section col-1-5">
 <br><br>
+</div>
 		<div class="section col-1" id= "topNavLogo">
 			<a href="index.html"><div class="logo">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 694.8 207.4">
@@ -36,19 +38,18 @@ layout: menuFooter
 				</svg>
 			</div></a>
 		</div>
+		
 		<div class="section col-2-3" id= "topNavH">
 			<h3>Leveraging the power of <div class="red">art</div> and <div class="red">design</div> to advance the front lines of <div class="red">social justice</div></h3>
 		</div>
+		
 		<div class="section col-5" id="menuButton">
 			<div class="icon">
 				<img src="img/icons/menu.svg" alt="menu" onclick="openNav()" id="menuIcon">
 			</div>	
 		</div>
-	<br>
-	<div class="section col-1-5">
-			<div class="rule"></div>
-	</div>
-	<br>
+	
+	{% include rule-break-header.html %}
 
 </div>
 

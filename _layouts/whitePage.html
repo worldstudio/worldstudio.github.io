@@ -4,7 +4,7 @@ layout: menuFooter
 
 <body>
 <div class="container">
-<br><br>
+{% include single-break.html %}
 		<div class="section col-1" id= "topNavLogo">
 			<a href="index.html"><div class="logo">
 				<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="0 0 694.8 207.4">
@@ -39,19 +39,20 @@ layout: menuFooter
 		<div class="section col-2-3" id= "topNavH">
 			<h3 class="grey">Leveraging the power of <div class="red">art</div> and <div class="red">design</div> to advance the front lines of <div class="red">social justice</div></h3>
 		</div>
-		
-		<br>
-
 		<div class="section col-5" id="menuButton">
 			<div class="icon">
 				<img src="img/icons/menu-grey.svg" alt="menu" onclick="openNav()" id="menuIcon">
 			</div>	
 		</div>
-
+		
+		{% include rule-break-grey-header.html %}
+	
 	</div>
 
 <div class="container about">
+	
 	{{ content }}
+
 </div>
 
 </body>

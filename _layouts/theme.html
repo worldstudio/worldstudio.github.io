@@ -6,7 +6,7 @@ layout: greyPageResources
 	<!-- start of content -->
 	<div class="section col-1">
 		<h3 class ="red">{{ page.issue }}</h3> 
-		<div class="clear"></div>
+		<div class="clear"><br></div>
 		<p><strong>{{ page.artist_name }}<br>
 		{{ page.organization_name }}</strong></p> 
 		<br />
@@ -21,24 +21,22 @@ layout: greyPageResources
 		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} -->
 
 	</div>
-	<div class="section col-2-5">
+	<div class="section col-2-3">
 		<br>
 		<h3>{{ page.main_entry }}</h3>
-	</div>
-	<div class="section col-2-3">
-			<p>
+	
+		<p>
 			{{ page.left_p_html | newline_to_br }}
-			</p>
+		</p>
 	</div>
 	<div class="section col-4-5">
 			<p>
 				{{ page.right_p_html | newline_to_br }}
 			</p>
-			<div class="clear">
-				<br /><br /><br /><br />
-			</div>
 	</div>
-
+	<div class="section col-1-5">
+				<br /><br /><br /><br />
+	</div>
 	<div class="section col-1-5">
 		<div class="rule"></div>
 	</div>
