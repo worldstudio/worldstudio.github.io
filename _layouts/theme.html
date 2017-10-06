@@ -46,18 +46,36 @@ layout: greyPageResources
 			</p>
 	</div>
 	
-	{% include rule-break-grey.html %}
+	{% include rule-break.html %}
 
-	<div class="section col-1-5">
-		<div class="rule"></div>
-	</div>
 	<div class="section col-1">
-		<br>
 		<h3>Collaborators</h3>
+		<div class="clear">
+			<br>
+		</div>
 	</div>
+
 	<div class="section col-2-3">
-		<br>
+		<p><strong>{{ page.organization_name }}</strong></p>
+			<br>
+			<p>
+				{{ page.organization_bio_html | newline_to_br }}
+			</p>
+		
+			<br />
+			<div class="half">
+				<a href="{{ page.organization_url }}"><img alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
+			</div>
+			<div class="clear">
+				<br>
+				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
+			</div>
+		
+	</div>
+
+	<div class="section col-4-5">
 		<p><strong>{{ page.artist_name }}</strong></p>
+			<br>
 			<p>
 				{{ page.artist_bio_html | newline_to_br }}
 			</p>
@@ -69,26 +87,11 @@ layout: greyPageResources
 			<br>
 			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
 		</div>
-		<br>
 	
 	</div>
-	<div class="section col-4-5">
-		<br>
-		<p><strong>{{ page.organization_name }}</strong></p>
-			<p>
-				{{ page.organization_bio_html | newline_to_br }}
-			</p>
-		<div class="clear">
-			<br />
-			<div class="half">
-				<a href="{{ page.organization_url }}"><img alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
-			</div>
-			<div class="clear">
-				<br>
-			</div><a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
-		</div>
-	</div>
-		<br /><br /><br /><br />
+
+	{% include single-break.html %}
+
 </div>
 						
 
