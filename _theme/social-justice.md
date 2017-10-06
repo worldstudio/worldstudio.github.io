@@ -11,14 +11,6 @@ right_p_html: |
  Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
 
  Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum cursus.
-artist_name: Dread Scott
-artist_name_short: Dread Scott
-artist_url: http://www.dreadscott.net/
-artist_image: /img/artists/dread-scott.jpg
-artist_bio_html: |
- Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
-
- Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit.
 organization_name: Revolution Books
 organization_name_short: Revolution Books
 organization_url: http://www.revolutionbooksnyc.org/
@@ -28,5 +20,12 @@ organization_bio_html: |
  Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
 
  Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit.
+artist_name: Dread Scott
+artist_name_short: Dread Scott
+artist_url: http://www.dreadscott.net/
+artist_image: /img/artists/dread-scott.jpg
+artist_bio_html: |
+ Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia commodo.
 
+ Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit.
 ---

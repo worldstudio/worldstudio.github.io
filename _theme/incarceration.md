@@ -23,6 +23,20 @@ right_p_html: >-
   nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
   solutions are in our backyards. Together we can build stronger communities
   and, overall, a safer U.S.</p><p>&nbsp;</p>
+organization_name: Vera Institute for Justice
+organization_name_short: Vera
+organization_url: 'https://www.vera.org/'
+organization_image: /img/organizations/vera.svg
+organization_bio_html: >-
+  <p>Vera Institute for Justice strives to urgently build and improve justice
+  systems that ensure fairness, promote safety, and strengthen communities with
+  of substantially reducing the number of people held in jail. In partnership 15
+  bellwether cities and major counties, Vera focuses on substantially lowering
+  the number of people held in jail. Nam lobortis hendrerit est, quis accumsan
+  nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu.
+  Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et
+  turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae
+  metus lacinia commodo nunc rutrum cursus.</p>
 artist_name: Seymour Chwast
 artist_name_short: Seymour
 artist_url: 'http://seymourchwastarchive.com/'
@@ -38,18 +52,4 @@ artist_bio_html: >-
   Seymour: The Obsessive Images of Seymour Chwast. He is in the Art Directors
   Hall of Fame and is the recipient of the 1985 Medal from the American
   Institute of Graphic Arts.</p>
-organization_name: Vera Institute for Justice
-organization_name_short: Vera
-organization_url: 'https://www.vera.org/'
-organization_image: /img/organizations/vera.svg
-organization_bio_html: >-
-  <p>Vera Institute for Justice strives to urgently build and improve justice
-  systems that ensure fairness, promote safety, and strengthen communities with
-  of substantially reducing the number of people held in jail. In partnership 15
-  bellwether cities and major counties, Vera focuses on substantially lowering
-  the number of people held in jail. Nam lobortis hendrerit est, quis accumsan
-  nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu.
-  Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et
-  turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae
-  metus lacinia commodo nunc rutrum cursus.</p>
 ---
