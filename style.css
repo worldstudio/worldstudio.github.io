@@ -21,16 +21,16 @@ footer {
   padding: 0 3% 0 3%;
   display: grid;
   grid-template-columns:repeat(10, 1fr);
-  grid-gap: 2%;
+  grid-gap: 15px;
 }
 
 .main {
   background-color: #454545;
 }
 
-.main .themeMain {
- margin-bottom: 12%;
-}
+/*.main .themeMain {
+ margin-bottom: 15px;
+}*/
 
 .menu {
   background-color: #EF3F23;
@@ -249,10 +249,6 @@ a {
     color: white;
  }
 
-br.small {
-  line-height: 50%;
-}
-
 .logo {
   width: 100%;
   display: inline-block;
@@ -279,7 +275,7 @@ button {
 
 p {  
   font-family: 'Open Sans', sans-serif;
-  font-size:15px;
+  font-size: 15px;
   font-weight: 400;
   color:#FFFFFF;
   margin:0;
