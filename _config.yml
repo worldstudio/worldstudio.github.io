@@ -15,7 +15,6 @@ google_analytics: "UA-105013659-1"
 
 plugins:
   - jekyll-feed
-  - jekyll-assets
 
 # prose:
 #  ignore: ['_layouts', '_config.yml', 'Gemfile', 'Gemfile.lock', 'style.css', '_includes', 'index']
