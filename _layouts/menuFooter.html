@@ -10,7 +10,10 @@
 	<script src="js/main.js" type="text/javascript">
 	</script> 
 	<script>
-		alert(navigator.userAgent);
+		var ua = window.navigator.userAgent;
+		var test = window.navigator.appName;
+
+		console.log(ua, '\n', "app name thing:" + test);
 	</script>
 	{% include ganalytics.html %}
 	</head>
