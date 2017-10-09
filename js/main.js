@@ -10,5 +10,4 @@ function closeNav() {
 
 function browserID () {
     alert(navigator.userAgent)
-
 }

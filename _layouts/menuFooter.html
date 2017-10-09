@@ -11,9 +11,26 @@
 	</script> 
 	<script>
 		var ua = window.navigator.userAgent;
-		var test = window.navigator.appName;
+		var browser = String(ua);
+		var ie = ['NET', 'Edge', 'Trident', 'MSIE']
+		
 
-		console.log(ua, '\n', "app name thing:" + test);
+		function checker(value) {
+		  var ie = ['NET', 'Edge', 'Trident', 'MSIE']
+
+		  for (var i = 0; i < ie.length; i++) {
+		    if (value.indexOf(ie[i]) > -1) {
+		      return true;
+		    }
+		  }
+		  return false;
+		}
+
+		console.log(checker(browser));
+		console.log(browser.indexOf(ie[0]));
+
+
+		// console.log(browser.indexOf('Firefox'));
 	</script>
 	{% include ganalytics.html %}
 	</head>
