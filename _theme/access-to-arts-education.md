@@ -17,7 +17,7 @@ organization_url: http://openingact.org/
 organization_image: /img/organizations/opening-act.png 
 organization_bio_html: |
  Founded in 2000 by actors and educators, Opening Act seeks to level the playing field for our students by specifically partnering with NYC schools that have lower than average graduation rates (as few as 33% of students graduating in four years) and a lack of theater programming. Opening Act gives high school students opportunities to develop leadership, community, and commitment through its innovative, high quality, free, After-School Theater Program.
- artist_name: Rafael Esquer
+artist_name: Rafael Esquer
 artist_name_short: Rafael
 artist_url: http://alfalfastudio.com/
 artist_image: /img/artists/rafael-esquer.jpg
