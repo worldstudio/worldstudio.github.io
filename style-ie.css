@@ -14,7 +14,10 @@ body {
 footer {
   background-color: #908f8f;
   width: 100%;
-
+  /*position: absolute;
+  bottom: 0;*/
+  clear:both;
+  height: 275px;
 }
 
 #menuButton, #footerButtons {
