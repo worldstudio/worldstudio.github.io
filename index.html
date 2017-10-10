@@ -14,7 +14,7 @@ layout: greyPage
 		{% assign col = col_item %}
 	{% endif %}
 
-		<div class="section col-{{ col }} themeMain">
+		<div class="section col-{{ col }} themeMain" id = "indexThemes">
 		 	<a href="{{ theme_item.url }}.html"><div class="section themeContent">
 				<h3 class ="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
@@ -27,5 +27,72 @@ layout: greyPage
 {% endfor %}
 
 {% include rule-break-header.html %}
+
+<!-- <div class="section col-1-5">
+<div class="div" id="dummyDiv" style="height:400px; width:auto; background-color:black;"></div>
+</div> -->
+
+<script>
+var startX;
+var startY;
+var endX;
+var endY;
+var treshold = 100; //threshold for noise
+var slides = document.getElementById("indexThemes");
+
+var slidesName = document.getElementsByClassName("themeMain");
+
+// var moo = slidesName.indexOf(slidesName[0]);
+console.log(slidesName[0]);
+console.log(slidesName);
+console.log(slidesName.length);
+
+for (i = 0; i < slidesName.length; i++) { 
+    console.log(i);
+    slidesName[i].style.zIndex = i; 
+}
+
+function handleTouch(start,end, cbL, cbR){ 
+  var xDist = endX - startX;
+  var yDist = endY - startY;
+  
+  console.log(xDist);
+  console.log(yDist);
+   if(endX - startX < 0){
+      cbL();
+    }else{
+      cbR();
+    }
+}
+
+var left = () =>{   
+  console.log("You swipped left!"); 
+}
+
+var right = () =>{
+  console.log("You swipped right!");  
+}
+
+
+// window.onload = function(){
+ slides.addEventListener('touchstart', function(event){
+   // console.log(event);
+   startX = event.touches[0].clientX;
+   startY = event.touches[0].clientY;
+   console.log(`the start is at X: ${startX}px and the Y is at ${startY}px`)
+   
+ })
+ 
+  slides.addEventListener('touchend', function(event){
+   // console.log(event);
+   endX = event.changedTouches[0].clientX;
+   endY = event.changedTouches[0].clientY;
+   console.log(`the start is at X: ${endX}px and the Y is at ${endY}px`)
+    
+   handleTouch(startX, endX, left, right)
+   
+ })
+
+</script>
 
 </div> 
