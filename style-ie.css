@@ -21,6 +21,10 @@ footer {
   bottom: 0px;
 }
 
+.copyright {
+  clear: both;
+}
+
 #menuButton, #footerButtons {
     float: right;
 }
