@@ -672,7 +672,7 @@ a.footerLinks {
   }
 
   #menuButton {
-    grid-column: 9/11;
+    float: right;
   }
 
   #footerButtons {
