@@ -18,6 +18,7 @@ footer {
   bottom: 0;*/
   clear:both;
   height: 275px;
+  bottom: 0px;
 }
 
 #menuButton, #footerButtons {
