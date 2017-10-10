@@ -19,18 +19,16 @@ footer {
 
 #menuButton, #footerButtons {
     float: right;
-    margin-right: 2%;
-
 }
 
 .container > div {
   float: left;
+  margin: 1%;
 }
 
-.container {
-  width: 95%;
-  /*padding: 20px;*/
-}
+/*.container {
+  width: 100%;
+}*/
 
 
 
@@ -53,53 +51,44 @@ footer {
 }
 
 .col-1 {
-  width: 18%;
-  margin-left: 2%; 
-  padding-bottom: 15px;
+  width: 18%; 
   position: relative;  
   overflow: hidden;
 }
 
 .col-2 {
   width: 18%;
-  margin-left: 2%;
-  padding-bottom: 15px;
   position: relative;  
   overflow: hidden;
 }
 
 .col-3 {
   width: 18%;
-  margin-left: 2%;
-  padding-bottom: 15px;
   position: relative;
   overflow: hidden;
 }
 
 .col-4 {
   width: 18%;
-  margin-left: 2%;
-  padding-bottom: 15px;
   position: relative;
   overflow: hidden;
 }
 
 .col-5 {
   width: 18%;
-  margin-left: 2%;
-  padding-bottom: 15px;
   position: relative;
   overflow: hidden;
 }
 
 .col-2-3, .about {
   width: 38%;
-  margin-left: 2%;
 }
 
 .col-1-5 {
-  width: 96%;
-  padding-left: 2%;
+  width: 98%;
+  /*padding-left: 2%;*/
+  /*margin-right: auto;
+  margin-left: auto;*/
 }
 
 .col-1-3 {
