@@ -6,32 +6,33 @@
 	<title>Amplify</title>
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<link href="style.css" rel="stylesheet">
+	<!-- <link href="style.css" rel="stylesheet"> -->
 	<script src="js/main.js" type="text/javascript">
 	</script> 
 	<script>
+
 		var ua = window.navigator.userAgent;
 		var browser = String(ua);
 		var ie = ['NET', 'Edge', 'Trident', 'MSIE']
 		
-
 		function checker(value) {
-		  var ie = ['NET', 'Edge', 'Trident', 'MSIE']
 
 		  for (var i = 0; i < ie.length; i++) {
 		    if (value.indexOf(ie[i]) > -1) {
+		      
 		      return true;
 		    }
 		  }
 		  return false;
 		}
 
-		console.log(checker(browser));
-		console.log(browser.indexOf(ie[0]));
-
-
-		// console.log(browser.indexOf('Firefox'));
+		if ( checker(browser) == true) {
+			document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"style-ie.css\">");	
+		} else {
+			document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">");	
+		}
 	</script>
+
 	{% include ganalytics.html %}
 	</head>
 <!-- dropdown menu -->
@@ -59,9 +60,7 @@
 							{% endfor %}
 
 							<br>
-							<div class="social">
-								<a href="index.html"><img alt="home" src="img/icons/home.svg"></a>
-							</div>
+								<a href="index.html" ><img alt="home" class="social" src="img/icons/home.svg"></a>
 
 							{% include single-break.html %}
 							
