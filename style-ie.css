@@ -17,12 +17,16 @@ footer {
   /*position: absolute;
   bottom: 0;*/
   clear:both;
-  height: 275px;
+  height: 325px;
   bottom: 0px;
 }
 
 .copyright {
   clear: both;
+}
+
+.resources {
+  background-color: #EF3F23;
 }
 
 #menuButton, #footerButtons {
@@ -48,10 +52,6 @@ footer {
   background-color: #EF3F23;
   height: 0%;
   z-index: 1;
-}
-
-.resources {
-  background-color: #EF3F23;
 }
 
 .about {
