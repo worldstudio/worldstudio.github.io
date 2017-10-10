@@ -17,8 +17,9 @@ footer {
   /*position: absolute;
   bottom: 0;*/
   clear:both;
-  height: 325px;
-  bottom: 0px;
+  overflow: hidden;
+  height: auto;
+  display: block;
 }
 
 .copyright {
@@ -26,7 +27,13 @@ footer {
 }
 
 .resources {
+  -webkit-background-color: #EF3F23 !important;
   background-color: #EF3F23;
+  overflow: hidden;
+  height: auto;
+  display: block;
+  clear:both;
+
 }
 
 #menuButton, #footerButtons {
