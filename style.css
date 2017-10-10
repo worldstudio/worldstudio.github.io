@@ -320,7 +320,7 @@ p {
   margin:0;
 }
 
-p.grey, a.grey {  
+p.grey, .about a {  
   color: #454545;
 }
 
