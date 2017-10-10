@@ -320,7 +320,7 @@ p {
   margin:0;
 }
 
-p.grey {  
+p.grey, a.grey {  
   color: #454545;
 }
 
