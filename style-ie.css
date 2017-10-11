@@ -26,6 +26,10 @@ footer {
   clear: both;
 }
 
+#myNav {
+  z-index: 1000;
+}
+
 .container {
   /*display: table;
   max-width: 98%;*/
@@ -44,7 +48,7 @@ footer {
 
 }
 
-#menuButton, #footerButtons {
+#menuButton, #footerButtons, #menuDrop {
     float: right;
     /*display: ruby-base;*/
 }
@@ -675,7 +679,7 @@ a.footerLinks {
   margin-left: 1%;
   }
 
-  #menuButton {
+  #menuButton, #menuDrop {
     float: left;
     clear: none;
     width: 48%;

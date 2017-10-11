@@ -46,10 +46,18 @@ console.log(slidesName[0]);
 console.log(slidesName);
 console.log(slidesName.length);
 
+function isMobileDevice() {
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+};
+
+if (isMobileDevice() == true)  {
+	alert("This thing works")
+};
+
 for (i = 0; i < slidesName.length; i++) { 
     console.log(i);
     slidesName[i].style.zIndex = i; 
-}
+};
 
 function handleTouch(start,end, cbL, cbR){ 
   var xDist = endX - startX;
@@ -62,15 +70,15 @@ function handleTouch(start,end, cbL, cbR){
     }else{
       cbR();
     }
-}
+};
 
 var left = () =>{   
   console.log("You swipped left!"); 
-}
+};
 
 var right = () =>{
   console.log("You swipped right!");  
-}
+};
 
 
 // window.onload = function(){
@@ -80,7 +88,7 @@ var right = () =>{
    startY = event.touches[0].clientY;
    console.log(`the start is at X: ${startX}px and the Y is at ${startY}px`)
    
- })
+ });
  
   slides.addEventListener('touchend', function(event){
    // console.log(event);
@@ -90,7 +98,7 @@ var right = () =>{
     
    handleTouch(startX, endX, left, right)
    
- })
+ });
 
 </script>
 

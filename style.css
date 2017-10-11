@@ -17,6 +17,10 @@ footer {
 
 }
 
+#myNav {
+  z-index: 1000;
+}
+
 
 .container > div {
   float: left;
