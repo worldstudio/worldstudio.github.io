@@ -562,11 +562,11 @@ a.footerLinks {
   }
 
   #topNavLogo  {
-    grid-column: 1/4;
+    width: 25%;
   }
 
   #topNavH {
-    grid-column: 4/9;
+    width: 38%;
   }
 
   .themeContent {
@@ -574,7 +574,7 @@ a.footerLinks {
   }
 
   #footerButtons {
-    grid-column: 7/11;
+    width: 50%;
   }
 
   .logos img {
@@ -607,27 +607,27 @@ a.footerLinks {
   }
 
   #footerButtons {
-    grid-column: 7/11;
+    width: 38%;
   }
 
   #topNavLogo  {
-    grid-column: 1/4;
+    display: none;
   }
 
   #topNavH {
-    grid-column: 4/9;
+    width: 38%;
   }
 
   .individual .col-1, .resources .col-1, .about .col-1, .about .contact, .col-2-5, .copyright { 
-    grid-column: 1/11;
+    width: 100%;
   }
 
   .individual .col-2-3,  .resources .col-2-3, .about .col-2-3 {
-    grid-column: 1/6;
+    width: 50%;
 
   }
   .individual .col-4-5,  .resources .col-4-5, .about .col-4-5 {
-    grid-column: 6/11;
+    width: 50%;
   }
 
   .feature img {
@@ -658,17 +658,15 @@ a.footerLinks {
   }
 
   .section, .individual .section, .about .section {
-    grid-column: 1/11;
+    width: 100%;
   }
 
   .main .themeMain {
    margin-bottom: 3%;
-   /*grid-column: 2/10;*/
-
   }
 
   #topNavLogo  {
-    grid-column: 1/5;
+   width: 48%;
   }
 
   #topNavH {
