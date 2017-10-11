@@ -205,7 +205,7 @@ img.third{
 }
 
 img#hashtagFooter{
-  width: 40%;
+  width: 30%;
   float: left;
 }
 
@@ -277,7 +277,7 @@ a {
   width: 100%;
   display: inline-block;
   float: left; 
-  max-height: 75px;
+  max-height: 100px;
 }
 
 .clear {
@@ -318,6 +318,7 @@ mark {
 
 .icon, img.social{
   width: 40px;
+  height: 100%;
 }
 
 .hashtag {
@@ -663,6 +664,18 @@ a.footerLinks {
     font-size: 20pt;
   }
 
+  #menuButton {
+    float: left;
+    clear: none;
+    width: 48%;
+  }
+
+  #footerButtons, a.footerLinks {
+    float: left;
+    /*margin-left: 1%;*/
+    clear: left;
+  }
+
   .section, .individual .section, .about .section {
     width: 100%;
   }
@@ -679,9 +692,7 @@ a.footerLinks {
     display: none;
   }
 
-  #footerButtons {
-    justify-self: left;
-  }
+  
 
   .feature img {
     width: 100%;
