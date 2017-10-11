@@ -26,12 +26,16 @@ footer {
   clear: both;
 }
 
+.container {
+  display: table;
+  max-width: 98%;
+}
+
 #individualSideOne{ 
   margin-left: 20%;
 }
 
 .resources {
-  -webkit-background-color: #EF3F23 !important;
   background-color: #EF3F23;
   overflow: hidden;
   height: auto;
@@ -611,11 +615,11 @@ a.footerLinks {
   }
 
   #topNavLogo  {
-    display: none;
+    display: 38%;
   }
 
   #topNavH {
-    width: 38%;
+    width: none;
   }
 
   .individual .col-1, .resources .col-1, .about .col-1, .about .contact, .col-2-5, .copyright { 
