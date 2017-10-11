@@ -27,8 +27,8 @@ footer {
 }
 
 .container {
-  display: table;
-  max-width: 98%;
+  /*display: table;
+  max-width: 98%;*/
 }
 
 #individualSideOne{ 
@@ -46,11 +46,13 @@ footer {
 
 #menuButton, #footerButtons {
     float: right;
+    display: ruby-base;
 }
 
 .container > div {
   float: left;
   margin: 1%;
+  display: inline;
 }
 
 .main {
@@ -274,8 +276,7 @@ a {
 .logo {
   width: 100%;
   display: inline-block;
-  float: left;
-  justify-self: right;
+  float: left; 
 }
 
 .clear {
