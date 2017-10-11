@@ -552,6 +552,10 @@ a.footerLinks {
     font-size: 11pt;
   }
 
+  img#hashtagFooter{
+  width: 50%;
+  }
+
 }
 
 @media all and (max-width: 903px) and (min-width: 727px) {
@@ -581,7 +585,7 @@ a.footerLinks {
   }
 
   #footerButtons {
-    width: 50%;
+    width: 38%;
   }
 
   .logos img {
@@ -607,8 +611,11 @@ a.footerLinks {
   h3 {
     font-size: 11pt;
   }
-  
 
+  #individualSideOne{ 
+  margin-left: none;
+  }
+  
   .themeContent {
     display: none;
   }
@@ -630,11 +637,11 @@ a.footerLinks {
   }
 
   .individual .col-2-3,  .resources .col-2-3, .about .col-2-3 {
-    width: 50%;
+    width: 48%;
 
   }
   .individual .col-4-5,  .resources .col-4-5, .about .col-4-5 {
-    width: 50%;
+    width: 48%;
   }
 
   .feature img {
@@ -664,6 +671,10 @@ a.footerLinks {
     font-size: 20pt;
   }
 
+  #individualSideOne{ 
+  margin-left: none;
+  }
+
   #menuButton {
     float: left;
     clear: none;
@@ -691,8 +702,6 @@ a.footerLinks {
   #topNavH {
     display: none;
   }
-
-  
 
   .feature img {
     width: 100%;
