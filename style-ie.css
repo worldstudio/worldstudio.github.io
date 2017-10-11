@@ -46,7 +46,7 @@ footer {
 
 #menuButton, #footerButtons {
     float: right;
-    display: ruby-base;
+    /*display: ruby-base;*/
 }
 
 .container > div {
@@ -277,6 +277,7 @@ a {
   width: 100%;
   display: inline-block;
   float: left; 
+  max-height: 75px;
 }
 
 .clear {
