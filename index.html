@@ -27,36 +27,21 @@ layout: greyPage
 
 {% include rule-break-header.html %}
 
-<!-- <div class="section col-1-5">
-<div class="div" id="dummyDiv" style="height:400px; width:auto; background-color:black;"></div>
-</div> -->
-
 <script>
 var startX;
 var startY;
 var endX;
 var endY;
 var treshold = 100; //threshold for noise
-// var slides = document.getElementById("indexThemes");
-// console.log(slides);
 
 var slidesName = document.getElementsByClassName("themeMain");
 var firstSlide = slidesName[0];
 
-// assign z values
-// for (i = 0; i < slidesName.length; i++) { 
-//     slidesName[i].style.zIndex = Math.abs(i - slidesName.length); 
-// }
-
-// // var moo = slidesName.indexOf(slidesName[0]);
-// // console.log(slidesName[0]);
-// // console.log(slidesName);
-// // console.log(slidesName.length);
-
-// mobile
+// test for mobile
 function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500);
-};
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
+}; 
+// || (window.innerWidth < 500) –– leave for testing purposes
 
 // touch stuff starts
 function handleTouch(start,end, cbL, cbR){ 
@@ -65,9 +50,9 @@ function handleTouch(start,end, cbL, cbR){
   
   console.log(xDist);
   console.log(yDist);
-   if(endX - startX < 0){
+   if(endX - startX < 0 && endY - startY < treshold){
       cbL();
-    }else{
+    }if (endX - startX > 0 && endY - startY < treshold) {
       cbR();
     }
 };
@@ -75,6 +60,7 @@ function handleTouch(start,end, cbL, cbR){
 
 var firstTheme = 0;
 
+// animate sliding card deck
 if (isMobileDevice() == true) {
 
 	orderThemes(firstTheme);

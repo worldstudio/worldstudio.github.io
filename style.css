@@ -683,7 +683,8 @@ a.footerLinks {
   #indexThemes {
     grid-column: 2/10;
     grid-row: 1;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
+    transition: 0.2s;
   }
 
   .section, .individual .section, .about .section {
