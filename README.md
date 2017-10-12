@@ -1,6 +1,6 @@
 # CMS guide
 
-The following instructions are applicable to content management and population on [CloudCannon](https://cloudcannon.com/)
+The following instructions are applicable to content management on [CloudCannon](https://cloudcannon.com/)
 
 
 
