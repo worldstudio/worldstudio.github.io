@@ -41,6 +41,26 @@ var firstSlide = slidesName[0];
 function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500);
 }; 
+
+window.addEventListener("orientationchange", function() {
+	if (screen.orientation.angle == 90) {
+	for (i = 0; i < slidesName.length; i++) {
+	  	// var activeSlide = (firstTheme+i) % (slidesName.length);
+	    slidesName[i].style.zIndex = 0;
+	    slidesName[i].style.top = 0;
+	    slidesName[i].style.left = 0;
+	    // console.log("active slide index:" + activeSlide);	 
+	}  
+	}
+	else {
+	mobileLayout();
+}
+});
+
+// window.addEventListener('orientationchange');
+
+// , isMobileDevice() = false
+
 // || (window.innerWidth < 500) –– leave for testing purposes
 
 // touch stuff starts
@@ -59,11 +79,16 @@ function handleTouch(start,end, cbL, cbR){
     }
 };
 
-
 var firstTheme = 0;
 
-// animate sliding card deck
 if (isMobileDevice() == true) {
+	mobileLayout()
+}
+
+
+function mobileLayout() {
+// animate sliding card deck
+// if (isMobileDevice() == true) {
 
 	orderThemes(firstTheme);
 
@@ -125,9 +150,8 @@ if (isMobileDevice() == true) {
 	   
 	  }); 
 	}
-
-}
-
+// }
+};
 
 
 </script>
