@@ -17,11 +17,13 @@ layout: greyPage
 		<div class="section col-{{ col }} themeMain" id = "indexThemes">
 
 		 	<a href="{{ theme_item.url }}.html"><div class="section themeContent">
-				<img src="img/icons/swipe.svg" class="mobileSwipe">
-				<div class="clear"></div>
+				
 				<h3 class ="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
-				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong></p>
+				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong> <br><br></p>
+				<div class="clear"></div>
+				<!-- <img src="img/icons/swipe.svg" class="mobileSwipe"> -->
+				
 			</div></a>
 		 	<a href="{{ theme_item.url }}.html" class="image"><img src="{{ theme_item.image_path }}" alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"></a>
 		</div>
