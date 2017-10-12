@@ -671,6 +671,11 @@ a.footerLinks {
   margin-right: 15%
   }
 
+  .themeMain {
+    top: 0 !important;
+    left: 0 !important;
+  }
+
 
 }
 
