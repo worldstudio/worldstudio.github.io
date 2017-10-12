@@ -680,10 +680,17 @@ a.footerLinks {
     font-size: 20pt;
   }
 
+  #indexAll {
+    background-image: url("img/icons/swipe.svg");
+    background-repeat: no-repeat;
+    /*background-position: bottom left;*/
+    background-position: 0% 91%;
+  }
+
   #indexThemes {
-    grid-column: 2/10;
+    grid-column: 1/9;
     grid-row: 1;
-    margin-bottom: 20%;
+    margin: 0 0 15% 0;
     transition: 0.2s;
   }
 
