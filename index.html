@@ -42,19 +42,23 @@ function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500);
 }; 
 
+console.log("hi!")
 window.addEventListener("orientationchange", function() {
-	if (screen.orientation.angle == 90) {
-	for (i = 0; i < slidesName.length; i++) {
-	  	// var activeSlide = (firstTheme+i) % (slidesName.length);
-	    slidesName[i].style.zIndex = 0;
-	    slidesName[i].style.top = 0;
-	    slidesName[i].style.left = 0;
-	    // console.log("active slide index:" + activeSlide);	 
-	}  
-	}
-	else {
-	mobileLayout();
-}
+	console.log(screen.orientation.angle);
+	window.location.reload();
+	// if (screen.orientation.angle == 0) {
+	// mobileLayout();	 
+	// // alert(screen.orientation.angle);
+	// }  
+	// if (screen.orientation.angle == 90) {
+	// for (i = 0; i < slidesName.length; i++) {
+	//   	// var activeSlide = (firstTheme+i) % (slidesName.length);
+	//     slidesName[i].style.zIndex = 0;
+	//     slidesName[i].style.top = 0;
+	//     slidesName[i].style.left = 0;
+	// }
+	    // console.log("active slide index:" + activeSlide);
+// }
 });
 
 // window.addEventListener('orientationchange');
