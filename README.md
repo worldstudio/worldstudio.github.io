@@ -9,7 +9,7 @@ Available options:
 	* Modify About page 
 	* Add a Theme/poster
 	* Add a Partner
-	* Upload images
+	* Upload Images
 	
 ## To Start
 	1. Log-in
@@ -35,7 +35,7 @@ Available options:
 
 ## Upload images
 	1. Locate File Browser option in the left handed menu and proceed to the img folder
-	Note: it is typically helpful to keep things organized in their designated folders
+	Note: it is  helpful to keep things organized in their designated folders
 	
 
 
