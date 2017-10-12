@@ -15,7 +15,10 @@ layout: greyPage
 	{% endif %}
 
 		<div class="section col-{{ col }} themeMain" id = "indexThemes">
+
 		 	<a href="{{ theme_item.url }}.html"><div class="section themeContent">
+				<img src="img/icons/swipe.svg" class="mobileSwipe">
+				<div class="clear"></div>
 				<h3 class ="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
 				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong></p>
@@ -39,9 +42,9 @@ var firstSlide = slidesName[0];
 
 // test for mobile
 function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500);
+    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500); 
 }; 
-
+// || (window.innerWidth < 500); -- keep for tests
 
 function handleTouch(start,end, cbL, cbR){ 
   var xDist = endX - startX;
