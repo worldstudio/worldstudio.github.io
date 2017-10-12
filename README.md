@@ -9,11 +9,12 @@ Available options:
 	* Modify About page 
 	* Add a Theme/poster
 	* Add a Partner
-	* Add a Supporter
+	* Upload images
 	
 ## To Start
 	1. Log-in
-	2. Select Editor Option
+	2. Navigate to site project
+	3. Select Editor from left menu bar
 
 ## Modify About page
 	1. Select Pages from the top-right dropdown
@@ -21,7 +22,21 @@ Available options:
 	3. Click into the areas outlined yellow and edit text
 	
 ## Add a Theme/poster
+	1. Select Collections from left menu bar
+	2. Press plus sign (Add Files) in the top right menu and select Add Theme
+	3. Name the theme
+	4. Double click on the newly created theme and populate relevant fields
+	5. Switch to Visual Editor to see page (new content will not show up until the Theme is saved)
+	Note: To remove a theme go back to Collections hover over the top right menu options and select Remove Theme
 
+## Add a Partner 
+	1. In Collections, select Partner from the left-sided menu
+	2. Press plus sign (Add Files) in the top right menu and select Add Partner	
+
+## Upload images
+	1. Locate File Browser option in the left handed menu and proceed to the img folder
+	Note: it is typically helpful to keep things organized in their designated folders
+	
 
 
 
