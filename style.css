@@ -680,6 +680,12 @@ a.footerLinks {
     font-size: 20pt;
   }
 
+  #indexThemes {
+    grid-column: 2/10;
+    grid-row: 1;
+    margin-bottom: 10%;
+  }
+
   .section, .individual .section, .about .section {
     grid-column: 1/11;
   }
