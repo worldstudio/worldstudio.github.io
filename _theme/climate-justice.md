@@ -1,5 +1,5 @@
 ---
-image_path: /uploads/dj-spooky-web-2.jpg
+image_path:
 issue: Climate justice
 quote: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
@@ -55,3 +55,5 @@ artist_bio_html: >-
   has been featured in a number of high-profile publications, such as: Elle, CNN
   and SyFy.</p>
 ---
+
+
