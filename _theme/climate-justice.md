@@ -1,5 +1,5 @@
 ---
-image_path: /img/poster-placeholder.png
+image_path: /img/DJ_Spooky_web.jpg
 issue: Climate justice
 quote: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
