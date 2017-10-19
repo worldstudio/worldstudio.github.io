@@ -1,5 +1,5 @@
 ---
-image_path:
+image_path: /img/poster-placeholder.png
 issue: Climate justice
 quote: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
