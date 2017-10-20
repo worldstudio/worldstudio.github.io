@@ -1,53 +1,51 @@
 ---
 image_path: /img/youth-empowerment.jpg
 issue: Youth Empowerment
-quote: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit.
+quote: Only 1% of all technology company founders are Black. 87% are White.
 main_entry: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit euismod, quam felis congue lorem, vitae gravida ipsum arcu eget
-  sem. Aenean nulla magna, molestie sed leo a, tincidunt aliquam velit. Aliquam
-  erat volutpat.
+  Youth unemployment rates in economically disadvantaged communities across the
+  country are considerably higher than the national average. For millions of
+  young people, the cycle of poverty remains extremely hard to escape.
 left_p_html: >-
-  <p>Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa
-  aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium,
-  sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia
-  commodo. Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,
-  fringilla quam sit amet, commodo velit.</p>
+  <p>&nbsp;</p><p>Access to STEAM professions &ndash; Science, Technology,
+  Engineering, Arts and Math &ndash; for disconnected youth (defined as
+  14&ndash;24 years olds who are not in school and not working) is virtually
+  non&ndash;existent. In the United States an estimated 3 million youths aged
+  16&ndash;24 are disconnected. The majority are between</p>
 right_p_html: >-
-  <p>Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas
-  in tortor vitae metus lacinia commodo. Nam lobortis hendrerit est, quis
-  accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas
-  eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur
-  et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor
-  vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum
-  cursus.</p>
-organization_name: Youth Empowerment Org
-organization_name_short: Youth Empowerment
-organization_url:
+  <p>20 and 24 years old, which suggests the problem intensifies after high
+  school graduation. They are disproportionately people of
+  color.</p><p>&nbsp;</p><p>Rates of disconnection vary widely by metropolitan
+  area, and in some places young blacks and Latinos are up to 3&ndash;6 times
+  more likely to be disconnected than young whites. Among the 10 largest
+  metropolitan areas, whites have employment rates above the regional average,
+  while blacks have lower than average employment
+  rates.</p><p>&nbsp;</p><p>Disconnected youth are at increased risk for a host
+  of negative outcomes, including prolonged periods of unemployment, substance
+  abuse and incarceration.</p>
+organization_name: Made in Brownsville
+organization_name_short: Made in Brownsville
+organization_url: madeinbrownsville.org
 organization_bio_html: >-
-  <p>Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa
-  aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium,
-  sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia
-  commodo. Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,
-  fringilla quam sit amet, commodo velit.</p>
+  <p>Made in Brownsville is a Brooklyn-based creative agency that supports
+  economic mobility for under&ndash;resourced Brownsville youth through
+  apprenticeships in design and technology. The organization trains and employs
+  young people, including those with juvenile offenses, in the fields of
+  silkscreening, 3D printing, robotics and cinematography, among others. Made in
+  Brownsville aims to incentivize young people to pursue their talents and
+  harness the keys to successful careers.</p>
 artist_name: Gail Anderson and Joe Newton
 artist_name_short: Gail and Joe
-artist_url: 'http://gailycurl.com/'
+artist_url: andersonnewtondesign.com
 artist_image: /img/artists/gail-anderson-joe-newton.jpg
 artist_bio_html: >-
   <p>Gail Anderson and Joe Newton are AND&mdash;Anderson Newton Design, a
   multidisciplinary studio with a special interest in typography as
   communication. Anderson is an AIGA Medalist and member of the Citizens&rsquo;
   Stamp Advisory Committee for the USPS. Newton is a board member of the Type
-  Directors Club, and has illustrated Dan Savage&rsquo;s column for The Stranger
-  for over fifteen years. Both Gail and Joe teach at the School of Visual
-  Arts</p>
+  Directors Club, and has illustrated Dan Savage&rsquo;s column for <em>The
+  Stranger</em> for over fifteen years. Both Gail and Joe teach at the School of
+  Visual Arts</p>
 ---
 
 
