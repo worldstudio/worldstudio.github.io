@@ -1,6 +1,6 @@
 ---
-image_path: /img/Gail&Joe_web.jpg
-issue: Youth empowerment
+image_path: /img/youth-empowerment.jpg
+issue: Youth Empowerment
 quote: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
   id hendrerit.
