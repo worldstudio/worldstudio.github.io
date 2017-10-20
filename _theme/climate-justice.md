@@ -1,42 +1,38 @@
 ---
-image_path: /img/DJ_Spooky_web.jpg
+image_path: /img/climatejustice.jpg
 issue: Climate justice
-quote: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit.
+quote: It’s warming. It’s us. We’re sure. It’s bad. It’s urgent. We can fix it.
 main_entry: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit euismod, quam felis congue lorem, vitae gravida ipsum arcu eget
-  sem. Aenean nulla magna, molestie sed leo a, tincidunt aliquam velit. Aliquam
-  erat volutpat.
+  Climate change isn’t a distant, abstract problem – it’s here now. People all
+  over the world are feeling the impacts, from island nations going underwater
+  to indigenous lands being exploited for fossil fuel extraction. Earth has
+  always had natural cycles of warming and cooling, but never like what we’re
+  seeing now.
 left_p_html: >-
-  <p>Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa
-  aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium,
-  sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia
-  commodo. Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,
-  fringilla quam sit amet, commodo velit.</p>
+  <p>As of this writing, the top five hottest years on record are 2016, 2015,
+  2014, 2013, and 2010. 2017 so far is the second&ndash;hottest year on record,
+  after 2016.</p>
 right_p_html: >-
-  <p>Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas
-  in tortor vitae metus lacinia commodo. Nam lobortis hendrerit est, quis
-  accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas
-  eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur
-  et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor
-  vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum
-  cursus.</p>
+  <p>Climate change is not just an environmental issue, or a social justice
+  issue, or an economic issue. It is one of the biggest challenges humanity has
+  ever faced, and the consequences impact everything from food shortages to mass
+  migration to escalating political discord and conflict. It is essential that
+  we work together to solve the climate crisis.</p><p>That means bringing people
+  together &ndash; not just environmentalists, but business owners, faith
+  groups, labor unions, universities and others &ndash; and building coalitions
+  strong enough to put pressure on governments, and stand up to the fossil fuel
+  industry. We cannot a afford to wait any longer, we need true climate action
+  now.</p>
 organization_name: 350
 organization_name_short: 350
 organization_url: 'https://350.org/'
 organization_image: /img/organizations/350.svg
 organization_bio_html: >-
-  <p>Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa
-  aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium,
-  sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia
-  commodo. Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,
-  fringilla quam sit amet, commodo velit.</p>
+  <p>350.org is a global climate organization that uses online campaigns,
+  grassroots organizing, and mass public actions to oppose new coal, oil and gas
+  projects, take money out of the companies that are heating up the planet, and
+  build 100% clean energy solutions that work for all. 350&rsquo;s network
+  extends to 188 countries.</p>
 artist_name: DJ Spooky
 artist_name_short: DJ Spooky
 artist_url: 'http://djspooky.com/'
