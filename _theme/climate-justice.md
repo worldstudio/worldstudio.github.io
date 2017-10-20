@@ -36,7 +36,7 @@ organization_bio_html: >-
 artist_name: DJ Spooky
 artist_name_short: DJ Spooky
 artist_url: 'http://djspooky.com/'
-artist_image: /img/artists/dj-spooky.jpg
+artist_image: /img/artists/dj-spooky.png
 artist_bio_html: >-
   <p>DJ Spooky aka Paul D. Miller is a composer, multimedia artist, editor and
   author. His DJ MIXER iPad app has seen more than 12 million downloads in the
