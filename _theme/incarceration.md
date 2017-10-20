@@ -1,5 +1,5 @@
 ---
-image_path: /img/chwast-vera.png
+image_path: /img/incarceration.jpg
 issue: Incarceration
 quote: >-
   The U.S. has 5% of the world's population, and 25% of the world's
@@ -53,3 +53,5 @@ artist_bio_html: >-
   Hall of Fame and is the recipient of the 1985 Medal from the American
   Institute of Graphic Arts.</p>
 ---
+
+
