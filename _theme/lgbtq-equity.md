@@ -1,62 +1,50 @@
 ---
 image_path: /img/lgbtq-equity.jpg
 issue: LGBTQ Equity
-quote: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit.
+quote: Gender-Fluid. Gender-less. Trans-gender. Non-gender.
 main_entry: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum, ipsum
-  id hendrerit euismod, quam felis congue lorem, vitae gravida ipsum arcu eget
-  sem. Aenean nulla magna, molestie sed leo a, tincidunt aliquam velit. Aliquam
-  erat volutpat.
+  Many young people are articulating ever more varied understandings of gender
+  in themselves and their peers. They are also encountering a world around them
+  that is unprepared, if not downright hostile, in its responses.
 left_p_html: >-
-  <p>Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa
-  aliquam,fringilla quam sit amet, commodo velit. Curabitur et turpis pretium,
-  sagittis velit quis, fringilla nulla. Maecenas in tortor vitae metus lacinia
-  commodo. Nam lobortis hendrerit est, quis accumsan nisi suscipit quis. Donec
-  eleifend nisl nisi, vel posuere dui egestas eu. Morbi eu massa aliquam,
-  fringilla quam sit amet, commodo velit.</p>
+  <p>&nbsp;</p><p>From their own families to the communities and institutions
+  with which they interact, gender non- conforming youth are facing rejection,
+  discrimination and bullying at levels well beyond their equals.</p>
 right_p_html: >-
-  <p>Curabitur et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas
-  in tortor vitae metus lacinia commodo. Nam lobortis hendrerit est, quis
-  accumsan nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas
-  eu. Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur
-  et turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor
-  vitae metus lacinia commodo. tortor vitae metus lacinia commodo nunc rutrum
-  cursus.</p>
+  <p>Without a shared understanding of gender and sexual identities,
+  interactions can often occur with unanticipated &ndash; and even harmful
+  &ndash; consequences.</p><p>&nbsp;</p><p>Parents play a very powerful role in
+  a gender&ndash; expansive youth&rsquo;s life. Research shows that supportive
+  parenting significantly affects children&rsquo;s outlook on life, mental
+  health and self&ndash;esteem. Rejecting parenting practices appear to be
+  directly correlated to gender&ndash;expansive and transgender youth being more
+  depressed and suicidal. The most crucial thing parents can do is to allow
+  their gender non-conforming children to be exactly who they are.</p>
 organization_name: Hetrick-Martin Institute
 organization_name_short: HMI
 organization_url: 'https://www.hmi.org/'
 organization_image: /img/organizations/hmi.png
 organization_bio_html: >-
-  <p>Hetrick-Martin Institute believes all young people, regardless of sexual
-  orientation or identity, deserve a safe and supportive environment in which to
-  achieve their full potential. Hetrick-Martin creates this environment for
-  lesbian, gay, bisexual, transgender and questioning (LGBTQ) youth between the
-  ages of 13 and 24 and their families. It&rsquo;s impact to-date includes
-  supporting 2,000+ youths with programming in: Arts &amp; Culture, Health &amp;
-  Wellness, Counseling, Education, and Job Readiness, serving 11,000+ meals in
-  NYC annually and partnering with 50+ organizations initiatives ranging from
-  direct services and youth events to advocacy and awareness campaigns.</p>
+  <p>Hetrick-Martin Institute is the nation&rsquo;s oldest and largest
+  organization specializing in direct services and advocacy for LGBTQ youth.
+  Founded on the principle that safety is a primary need on the path from crisis
+  to stability, and from stability to success, HMI serves nearly 2000 youth
+  on-site, and over ten thousand youth through homeless street outreach
+  programs. Since its founding, HMI has served and empowered over 100,000 LGBTQ
+  youth.</p>
 artist_name: Lissa Rivera
 artist_name_short: Lissa
 artist_url: 'http://www.lissarivera.com/'
-artist_image: /img/artists/lissa-rivera.jpg
+artist_image: /img/artists/lissa-rivera.png
 artist_bio_html: >-
   <p>Lissa Rivera is a photographer and curator based in Brooklyn, NY whose work
   has received multiple grants and honors and been exhibited internationally.
-  Rivera received her MFA from the School of Visual Arts, where she became
-  fascinated with the social history of photography and the evolution of
-  identity, sexuality and gender in relationships. Selected press includes The
-  New York Times, Harper&rsquo;s Bazaar, Forbes, PAPER, The Boston Globe,
-  Huffington Post, Slate, and The Guardian, et al. Rivera was chosen as a
-  &ldquo;Woman to Watch&rdquo; for the biennial exhibition at the National
-  Museum of Women in the Arts. Selected honors include the Griffin
-  Museum&rsquo;s Peter Urban Legacy Award; Feature Shoot&rsquo;s Emerging
-  Photography Award; Photographic Resource Center Exposure 2016; Danforth Museum
-  Purchase Prize; Filter Photo Festival&rsquo;s People&rsquo;s Choice Award; and
-  the 2017 D&amp;AD Next Photographer Shortlist.</p>
+  Rivera is fascinated by the social history of photography and the evolution of
+  identity, sexuality and gender in relationships. Her work has been featured in
+  <em>The New York Times</em>, <em>The Guardian</em>, <em>Harper&rsquo;s
+  Bazaar</em>, <em>Forbes</em>, <em>Elle</em>, and <em>The Boston Globe</em>
+  among many others. Recent honors include the D&amp;AD Next Photographer
+  Shortlist and the Magnum Photography Award for Portraiture.</p>
 ---
 
 
