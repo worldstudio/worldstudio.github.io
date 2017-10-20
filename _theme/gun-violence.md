@@ -1,8 +1,8 @@
 ---
-image_path: /img/poster-placeholder.png
-issue: Gun violence
+image_path: /img/gun-violence.jpg
+issue: Gun Violence
 organization_name: New Yorkers Against Gun Violence
-organization_url: http://nyagv.org/
+organization_url: 'http://nyagv.org/'
 artist_name: Edel Rodriguez
-artist_url: http://edelr.com/
+artist_url: 'http://edelr.com/'
 ---
