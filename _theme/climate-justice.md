@@ -9,20 +9,20 @@ main_entry: >-
   always had natural cycles of warming and cooling, but never like what we’re
   seeing now.
 left_p_html: >-
-  <p>As of this writing, the top five hottest years on record are 2016, 2015,
-  2014, 2013, and 2010. 2017 so far is the second&ndash;hottest year on record,
-  after 2016.</p>
+  <p>&nbsp;</p><p>As of this writing, the top five hottest years on record are
+  2016, 2015, 2014, 2013, and 2010. 2017 so far is the second&ndash;hottest year
+  on record, after 2016.</p>
 right_p_html: >-
   <p>Climate change is not just an environmental issue, or a social justice
   issue, or an economic issue. It is one of the biggest challenges humanity has
   ever faced, and the consequences impact everything from food shortages to mass
   migration to escalating political discord and conflict. It is essential that
-  we work together to solve the climate crisis.</p><p>That means bringing people
-  together &ndash; not just environmentalists, but business owners, faith
-  groups, labor unions, universities and others &ndash; and building coalitions
-  strong enough to put pressure on governments, and stand up to the fossil fuel
-  industry. We cannot a afford to wait any longer, we need true climate action
-  now.</p>
+  we work together to solve the climate crisis.</p><p>&nbsp;</p><p>That means
+  bringing people together &ndash; not just environmentalists, but business
+  owners, faith groups, labor unions, universities and others &ndash; and
+  building coalitions strong enough to put pressure on governments, and stand up
+  to the fossil fuel industry. We cannot a afford to wait any longer, we need
+  true climate action now.</p>
 organization_name: 350
 organization_name_short: 350
 organization_url: 'https://350.org/'
