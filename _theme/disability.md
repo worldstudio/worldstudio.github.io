@@ -37,7 +37,7 @@ organization_bio_html: >-
 artist_name: Ryan Hartley Smith
 artist_name_short: Ryan
 artist_url: 'http://ryhartley.com/'
-artist_image: /img/artists/ryan-hartley-smith.jpg
+artist_image: /img/artists/ryan-hartley-smith.png
 artist_bio_html: >-
   <p>Ryan Hartley Smith is an illustrator based in New York City. He has
   received recognition from the Society of Illustrators and American
