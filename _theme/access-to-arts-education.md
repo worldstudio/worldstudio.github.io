@@ -33,7 +33,7 @@ organization_bio_html: >-
 artist_name: Rafael Esquer
 artist_name_short: Rafael
 artist_url: 'http://alfalfastudio.com/'
-artist_image: /img/artists/rafael-esquer.jpg
+artist_image: /img/artists/rafael-esquer.png
 artist_bio_html: >-
   <p>A native of the Sonora desert of Mexico, Rafael Esquer has made New York
   City his home for more than 20 years. As Creative Director at Radical Media,
