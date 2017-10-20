@@ -1,5 +1,5 @@
 ---
-image_path: /img/Ryan_web.jpg
+image_path: /img/disability.jpg
 issue: Disability rights
 quote: Does disability need a re-design?
 main_entry: >-
