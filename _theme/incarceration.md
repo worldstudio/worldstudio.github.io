@@ -10,12 +10,13 @@ main_entry: >-
   civil rights issue. In a time of deep ideological divides, the fight for
   justice is more urgent than ever.
 left_p_html: >-
-  <p>And it starts in local jails in nearly every community, where millions of
-  men and women &ndash; who are presumed innocent -&nbsp; are locked up over the
-  course of a year. Most are behind bars for minor offenses, and held because
-  they are simply too poor to post bail. Runaway use of incarceration
-  dehumanizes people, and targets and damages already marginalized communities
-  &ndash; people who are poor, people of color, people with mental illness.</p>
+  <p>&nbsp;</p><p>And it starts in local jails in nearly every community, where
+  millions of men and women &nbsp;&ndash; who are presumed innocent
+  &ndash;&nbsp; are locked up over the course of a year. Most are behind bars
+  for minor offenses, and held because they are simply too poor to post bail.
+  Runaway use of incarceration dehumanizes people, and targets and damages
+  already marginalized communities &ndash; people who are poor, people of color,
+  people with mental illness.</p>
 right_p_html: >-
   <p>The need to reform our criminal justice system remains a point of agreement
   among public leaders of red and blue states alike, as well as the local
@@ -28,19 +29,17 @@ organization_name_short: Vera
 organization_url: 'https://www.vera.org/'
 organization_image: /img/organizations/vera.svg
 organization_bio_html: >-
-  <p>Vera Institute for Justice strives to urgently build and improve justice
-  systems that ensure fairness, promote safety, and strengthen communities with
-  of substantially reducing the number of people held in jail. In partnership 15
-  bellwether cities and major counties, Vera focuses on substantially lowering
-  the number of people held in jail. Nam lobortis hendrerit est, quis accumsan
-  nisi suscipit quis. Donec eleifend nisl nisi, vel posuere dui egestas eu.
-  Morbi eu massa aliquam, fringilla quam sit amet, commodo velit. Curabitur et
-  turpis pretium, sagittis velit quis, fringilla nulla. Maecenas in tortor vitae
-  metus lacinia commodo nunc rutrum cursus.</p>
+  <p>Vera&rsquo;s mission is to urgently build and improve justice systems that
+  insure fairness, promote safety and strengthen communities. The organization
+  tackles the most pressing injustices of our day &ndash; from the causes and
+  consequences of mass incarceration and racial disparities, to the unmet needs
+  of the vulnerable, the marginalized and those harmed by crime and violence.
+  Vera works in partnership with local, state and national government officials
+  to create change in the U.S. justice system</p>
 artist_name: Seymour Chwast
 artist_name_short: Seymour
 artist_url: 'http://seymourchwastarchive.com/'
-artist_image: /img/artists/seymour.svg
+artist_image: /img/artists/seymour.png
 artist_bio_html: >-
   <p>Seymour Chwast is co-founder of Push Pin Studios and has been director of
   the Pushpin Group where he reintroduced graphic styles and transformed them
