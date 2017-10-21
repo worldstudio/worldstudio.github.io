@@ -12,7 +12,16 @@ left_p_html: >-
   cause of death among black youth ages 15&ndash;24. In New York City,
   under&ndash;served communities of color are disproportionately impacted by the
   flow of illegal guns from states with lax gun laws.</p>
-right_p_html:
+right_p_html: >-
+  <p>There are many factors that lead disenfranchised youth to pick up guns: the
+  cycle of violence is perpetuated by chronic loss, traumatic stress and grief,
+  poverty, inadequate schools and housing, unemployment, and
+  incarceration.</p><p>&nbsp;</p><p>Preventative education must go deeper than
+  explaining the dangers of gun violence and the potential for injury, death or
+  prison. Empowering young people with leadership skills &ndash; including
+  conflict resolution, public speaking and advocacy training &ndash; provides a
+  powerful antidote to the cycle of helplessness and violence plaguing our most
+  vulnerable neighborhoods.</p>
 organization_name:
 organization_name_short:
 organization_url:
