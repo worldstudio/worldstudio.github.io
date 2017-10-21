@@ -10,9 +10,9 @@ organization_name_short:
 organization_url:
 organization_image:
 organization_bio_html:
-artist_name:
-artist_name_short:
-artist_url:
+artist_name: Edel Rodriguez
+artist_name_short: Edel
+artist_url: edelr.com
 artist_image: /img/artists/edel.png
 artist_bio_html: >-
   <p>Edel Rodriguez is a Cuban American artist whose work has been exhibited
