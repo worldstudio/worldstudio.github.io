@@ -26,7 +26,14 @@ organization_name: NYAGV Education Fund
 organization_name_short: NYAGV
 organization_url: nyagvedfund.org
 organization_image:
-organization_bio_html:
+organization_bio_html: >-
+  <p>The mission of New Yorkers Against Gun Violence Education Fund (NYAGV Ed
+  Fund) is to reduce gun violence through public education and community
+  outreach. NYAGV Ed Fund&rsquo;s ReACTION Program partners with public schools
+  and community organizations, and is led by trained facilitators who come from
+  the communities they serve. ReACTION guides young people to understand the
+  root causes of gun violence and to find solutions as community leaders and
+  activists.</p>
 artist_name: Edel Rodriguez
 artist_name_short: Edel
 artist_url: edelr.com
