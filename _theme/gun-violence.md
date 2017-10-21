@@ -6,7 +6,12 @@ main_entry: >-
   Each year in the U.S., over 33,000 Americans are killed by gun violence, and
   more than 84,000 are injured. Over the past 50 years, more than 1.4 million
   Americans have been killed, and 3.5 million have been injured by firearms.
-left_p_html:
+left_p_html: >-
+  <p>&nbsp;</p><p>Gun violence is the third leading cause of death among
+  American youth &ndash; and homicide&ndash;by&ndash;firearm is the leading
+  cause of death among black youth ages 15&ndash;24. In New York City,
+  under&ndash;served communities of color are disproportionately impacted by the
+  flow of illegal guns from states with lax gun laws.</p>
 right_p_html:
 organization_name:
 organization_name_short:
