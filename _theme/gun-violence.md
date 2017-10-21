@@ -1,5 +1,5 @@
 ---
-image_path:
+image_path: /img/gun-violence.jpg
 issue:
 quote:
 main_entry:
