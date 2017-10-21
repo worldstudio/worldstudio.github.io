@@ -24,7 +24,7 @@ right_p_html: >-
   vulnerable neighborhoods.</p>
 organization_name: NYAGV Education Fund
 organization_name_short: NYAGV
-organization_url:
+organization_url: nyagvedfund.org
 organization_image:
 organization_bio_html:
 artist_name: Edel Rodriguez
