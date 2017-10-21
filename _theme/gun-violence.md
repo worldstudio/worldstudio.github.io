@@ -2,7 +2,10 @@
 image_path: /img/gun-violence.jpg
 issue: Gun Violence
 quote: More Americans have died from gun violence than in all this country’s wars.
-main_entry:
+main_entry: >-
+  Each year in the U.S., over 33,000 Americans are killed by gun violence, and
+  more than 84,000 are injured. Over the past 50 years, more than 1.4 million
+  Americans have been killed, and 3.5 million have been injured by firearms.
 left_p_html:
 right_p_html:
 organization_name:
