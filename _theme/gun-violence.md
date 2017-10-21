@@ -22,8 +22,8 @@ right_p_html: >-
   conflict resolution, public speaking and advocacy training &ndash; provides a
   powerful antidote to the cycle of helplessness and violence plaguing our most
   vulnerable neighborhoods.</p>
-organization_name:
-organization_name_short:
+organization_name: NYAGV Education Fund
+organization_name_short: NYAGV
 organization_url:
 organization_image:
 organization_bio_html:
