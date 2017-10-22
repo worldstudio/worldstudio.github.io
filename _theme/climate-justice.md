@@ -1,6 +1,6 @@
 ---
 image_path: /img/climatejustice.jpg
-issue: Climate justice
+issue: Climate Justice
 quote: It’s warming. It’s us. We’re sure. It’s bad. It’s urgent. We can fix it.
 main_entry: >-
   Climate change isn’t a distant, abstract problem – it’s here now. People all
