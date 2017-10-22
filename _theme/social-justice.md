@@ -22,7 +22,7 @@ organization_name: Revolution Books
 organization_name_short: Revolution Books
 organization_url: 'http://www.revolutionbooksnyc.org/'
 artist_photo_url: /img/artists/dread-scott.jpg
-organization_image: /img/organizations/revolution-books.jpg
+organization_image: /img/organizations/revolution-books.png
 organization_bio_html: >-
   <p>People come to Revolution Books from all over the world to find books that
   explain why the world is the way it is, and to actualize the possibility of a
