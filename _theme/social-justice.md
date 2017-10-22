@@ -6,7 +6,7 @@ main_entry: >-
   If you can conceive of a world without America – without everything America
   stands for and everything it does in the world – then you’ve already taken
   great strides and begun to get at least a glimpse of a whole new world.
-left_p_html:
+left_p_html: <p>&nbsp; &nbsp;</p><p>&nbsp;</p>
 right_p_html: >-
   <p>If you can envision a world without any imperialism, exploitation,
   oppression &ndash; and the whole philosophy that rationalizes it &ndash; a
