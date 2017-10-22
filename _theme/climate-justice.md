@@ -26,7 +26,7 @@ right_p_html: >-
 organization_name: 350
 organization_name_short: 350
 organization_url: 'https://350.org/'
-organization_image: /img/organizations/350.svg
+organization_image: /img/organizations/350.png
 organization_bio_html: >-
   <p>350.org is a global climate organization that uses online campaigns,
   grassroots organizing, and mass public actions to oppose new coal, oil and gas
