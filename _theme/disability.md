@@ -25,7 +25,7 @@ right_p_html: >-
   &ldquo;disabled&rdquo;?</p>
 organization_name: Inclusive Collective
 organization_name_short: Inclusive Collective
-organization_image: /idfc.png
+organization_image: /ifdc.png
 organization_bio_html: >-
   <p>The Inclusive Fashion &amp; Design Collective is a
   not&ndash;for&ndash;profit organization focused on ensuring that disabled
