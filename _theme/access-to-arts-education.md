@@ -1,6 +1,6 @@
 ---
 image_path: /img/access-to-arts-education.jpg
-issue: Access to arts education
+issue: Access to Arts Education
 quote: Arts education empowers young lives.
 main_entry: >-
   Programs in theater and storytelling offer young people whose voices are often
