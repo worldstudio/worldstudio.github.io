@@ -1,6 +1,6 @@
 ---
 image_path: /img/disability.jpg
-issue: Disability rights
+issue: Disability Rights
 quote: Does disability need a re-design?
 main_entry: >-
   In 1997, a group of architects and designers developed the Seven Principles of
