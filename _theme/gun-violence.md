@@ -25,7 +25,7 @@ right_p_html: >-
 organization_name: NYAGV Education Fund
 organization_name_short: NYAGV
 organization_url: nyagvedfund.org
-organization_image:
+organization_image: /img/organizations/nyagv.png
 organization_bio_html: >-
   <p>The mission of New Yorkers Against Gun Violence Education Fund (NYAGV Ed
   Fund) is to reduce gun violence through public education and community
