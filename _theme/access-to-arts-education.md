@@ -21,7 +21,7 @@ right_p_html: >-
 organization_name: Opening Act
 organization_name_short: Opening Act
 organization_url: 'http://openingact.org/'
-organization_image: /img/organizations/opening-act.png
+organization_image: /img/organizations/oa.png
 organization_bio_html: >-
   <p>Founded in 2000 by actors and educators, Opening Act seeks to level the
   playing field for high school students by partnering with NYC schools that
