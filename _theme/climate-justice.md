@@ -22,7 +22,7 @@ right_p_html: >-
   owners, faith groups, labor unions, universities and others &ndash; and
   building coalitions strong enough to put pressure on governments, and stand up
   to the fossil fuel industry. We cannot a afford to wait any longer, we need
-  true climate action now.</p>
+  true climate action now.</p><p>&nbsp;</p>
 organization_name: 350
 organization_name_short: 350
 organization_url: 'https://350.org/'
