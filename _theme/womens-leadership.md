@@ -22,7 +22,7 @@ right_p_html: >-
 organization_name: The Lower East Side Girls Club
 organization_name_short: LESGC
 organization_url: 'https://www.girlsclub.org/'
-organization_image: /img/organizations/lesgc-logo-white.svg
+organization_image: /img/organizations/lesgc.png
 organization_bio_html: >-
   <p>In 1996 a diverse group of women consisting of workers, artists, educators
   and businesswomen organized to address the lack of social services for girls
