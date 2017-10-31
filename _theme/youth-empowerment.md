@@ -26,7 +26,7 @@ right_p_html: >-
 organization_name: Made in Brownsville
 organization_name_short: Made
 organization_url: 'http://madeinbrownsville.org'
-organization_image: /img/organizations/made-in-brownville.png
+organization_image: /img/organizations/mib.png
 organization_bio_html: >-
   <p>Made in Brownsville is a Brooklyn-based creative agency that supports
   economic mobility for under&ndash;resourced Brownsville youth through

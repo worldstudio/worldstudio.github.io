@@ -27,7 +27,7 @@ right_p_html: >-
 organization_name: Vera Institute for Justice
 organization_name_short: Vera
 organization_url: 'https://www.vera.org/'
-organization_image: /img/organizations/vera.svg
+organization_image: /img/organizations/vera.png
 organization_bio_html: >-
   <p>Vera&rsquo;s mission is to urgently build and improve justice systems that
   insure fairness, promote safety and strengthen communities. The organization
