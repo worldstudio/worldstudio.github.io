@@ -47,6 +47,9 @@ artist_bio_html: >-
   of his life that continue to inform his work. Rodriguez has created artwork
   for numerous clients, including The New York Times, TIME Magazine and The New
   Yorker.</p>
+artist_two: 0
+resources_html: >-
+  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title

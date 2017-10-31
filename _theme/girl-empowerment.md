@@ -1,6 +1,6 @@
 ---
 image_path: /img/womens-leadership.jpg
-issue: Women's Leadership
+issue: Girl Empowerment
 quote: A tough place for a girl to grow up.
 main_entry: >-
   The effects of inner–city social turmoil that took place in the 1960’s and
@@ -45,6 +45,21 @@ artist_bio_html: >-
   Business by Fast Company magazine. Jennifer Kinon has lectured around the
   world on the role of brand identity systems, and in 2016 served as Design
   Director of Hillary for America.</p>
+artist_two: 0
+resources_html: >-
+  <p>Please check back soon for updated content</p>
+_comments:
+  image_path: Add or upload a poster from img collection (File Browser > img > partners)
+  issue: Theme title
+  artist_name_short: e.g. Seymour
+  artist_image: Add or upload a headshot from img collection (File Browser > img > artists)
+  organization_name_short: e.g. Vera
+  organization_image: >-
+    Add or upload a poster from img collection (File Browser > img >
+    organizations)
+  main_entry: Leading paragraph
+  left_p_html: Left-sided copy
+  right_p_html: Right-sided copy
 ---
 
 

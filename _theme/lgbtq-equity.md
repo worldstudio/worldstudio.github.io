@@ -45,6 +45,21 @@ artist_bio_html: >-
   Bazaar</em>, <em>Forbes</em>, <em>Elle</em>, and <em>The Boston Globe</em>
   among many others. Recent honors include the D&amp;AD Next Photographer
   Shortlist and the Magnum Photography Award for Portraiture.</p>
+artist_two: 0
+resources_html: >-
+  <p>Please check back soon for updated content</p>
+_comments:
+  image_path: Add or upload a poster from img collection (File Browser > img > partners)
+  issue: Theme title
+  artist_name_short: e.g. Seymour
+  artist_image: Add or upload a headshot from img collection (File Browser > img > artists)
+  organization_name_short: e.g. Vera
+  organization_image: >-
+    Add or upload a poster from img collection (File Browser > img >
+    organizations)
+  main_entry: Leading paragraph
+  left_p_html: Left-sided copy
+  right_p_html: Right-sided copy
 ---
 
 

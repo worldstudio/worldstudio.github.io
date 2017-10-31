@@ -43,6 +43,27 @@ artist_bio_html: >-
   received recognition from the Society of Illustrators and American
   Illustration. Smith is an Assistant Professor of Design at CUNY Queens
   College.</p>
+artist_two: true
+artist_two_name: Jerron Herron
+artist_two_name_short: Jerron
+artist_two_url: 'https://www.instagram.com/jerronmarcel/'
+artist_two_image: /img/artists/jerron-herron.png
+artist_two_bio_html: >-
+  <p>Jerron is a dancer, writer and administrator for Heidi Latsky Dance. He was featured in Open Studio with Jared Bowen for PBS, and recently in Dancing with Cerebral Palsy by Great Big Story.</p>
+resources_html: >-
+  <p>Please check back soon for updated content</p>
+_comments:
+  image_path: Add or upload a poster from img collection (File Browser > img > partners)
+  issue: Theme title
+  artist_name_short: e.g. Seymour
+  artist_image: Add or upload a headshot from img collection (File Browser > img > artists)
+  organization_name_short: e.g. Vera
+  organization_image: >-
+    Add or upload a poster from img collection (File Browser > img >
+    organizations)
+  main_entry: Leading paragraph
+  left_p_html: Left-sided copy
+  right_p_html: Right-sided copy
 ---
 
 

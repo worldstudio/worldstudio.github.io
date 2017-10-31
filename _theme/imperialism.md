@@ -1,6 +1,6 @@
 ---
 image_path: /img/social-justice.jpg
-issue: Social Justice
+issue: Imperialism
 quote: Imagine a world without imperialism.
 main_entry: >-
   If you can conceive of a world without America – without everything America
@@ -43,6 +43,21 @@ artist_bio_html: >-
   Whitney Museum, the New Museum of Contemporary Art (NY) and the Akron Art
   Museum, and has been included in recent exhibitions at MoMA PS1, the Walker
   Art Center and the Brooklyn Museum.</p>
+artist_two: 0
+resources_html: >-
+  <p>Please check back soon for updated content</p>
+_comments:
+  image_path: Add or upload a poster from img collection (File Browser > img > partners)
+  issue: Theme title
+  artist_name_short: e.g. Seymour
+  artist_image: Add or upload a headshot from img collection (File Browser > img > artists)
+  organization_name_short: e.g. Vera
+  organization_image: >-
+    Add or upload a poster from img collection (File Browser > img >
+    organizations)
+  main_entry: Leading paragraph
+  left_p_html: Left-sided copy
+  right_p_html: Right-sided copy
 ---
 
 
