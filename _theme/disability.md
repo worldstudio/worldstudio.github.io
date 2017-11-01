@@ -17,7 +17,7 @@ right_p_html: >-
   consideration, and for many disabled consumers disability is all but
   equivalent to a lack of choice. Assistive devices always end up stigmatizing
   their user.</p><p>&nbsp;</p><p>According to the National Institute of Health,
-  for example, only one fifth of people who could bene t from hearing aids
+  for example, only one-fifth of people who could bene t from hearing aids
   actually use them. Failure to use hearing aids can lead to early-onset
   dementia and even early death, and yet many people reject their use because of
   the social stigma associated with them. Could this stigma actually be deadly?
@@ -28,7 +28,7 @@ organization_name_short: Inclusive Collective
 organization_image: /img/organizations/ifdc.png
 organization_bio_html: >-
   <p>The Inclusive Fashion &amp; Design Collective is a
-  not&ndash;for&ndash;profit organization focused on ensuring that disabled
+  not-for-profit organization focused on ensuring that disabled
   people are drivers of our own narratives and designs. Our mission is to
   increase the impact of beautiful, functional products in our everyday lives
   and in the global economy. We partner the disability and design communities to
