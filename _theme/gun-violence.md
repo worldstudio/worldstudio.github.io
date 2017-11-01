@@ -45,8 +45,8 @@ artist_bio_html: >-
   identity, cultural displacement and mortality. Socialist propaganda and
   western advertising, island culture and contemporary city life are all aspects
   of his life that continue to inform his work. Rodriguez has created artwork
-  for numerous clients, including The New York Times, TIME Magazine and The New
-  Yorker.</p>
+  for numerous clients, including <i>The New York Times</i>, <i>TIME Magazine</i> and <i>The New
+  Yorker</i>.</p>
 artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
