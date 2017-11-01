@@ -32,6 +32,7 @@ footer {
 
 .main {
   background-color: #454545;
+  /*grid-auto-flow: row dense;*/
 }
 
 .menu {
@@ -101,6 +102,11 @@ footer {
 
 .col-2-5, .contact  {
   grid-column: 3 / 11;
+}
+
+.artist-two {
+  width: 50%;
+  float: left;
 }
 
 .overlay {
@@ -207,7 +213,7 @@ img.two-thirds{
   float: left;
 }
 
-.feature img{
+.feature img, img.feature{
   width: 75%;
 }
 
@@ -563,6 +569,11 @@ a.footerLinks {
     font-size: 10pt;
   }
 
+  button {
+    font-size: 0.7em;
+    min-width: 110px;
+  }
+
   #topNavLogo  {
     grid-column: 1/4;
   }
@@ -603,6 +614,10 @@ a.footerLinks {
     font-size: 11pt;
   }
   
+  button {
+    font-size: 0.6em;
+    min-width: 100px;
+  }
 
   .themeContent {
     display: none;
@@ -690,6 +705,11 @@ a.footerLinks {
    margin-bottom: 3%;
    /*grid-column: 2/10;*/
 
+  }
+
+  button {
+    font-size: 0.6em;
+    min-width: 110px;
   }
 
   #topNavLogo  {

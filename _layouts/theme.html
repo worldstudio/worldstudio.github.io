@@ -86,13 +86,6 @@ layout: greyPage
 				{{ page.artist_bio_html | newline_to_br }}
 			</p>
 			<br />
-			<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-			<div class="clear">
-			<br>
-			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-			<br>
-			<br>
-			</div>
 			<p><strong>{{ page.artist_two_name }}</strong></p>
 			<br>
 			<p>
@@ -100,12 +93,25 @@ layout: greyPage
 
 			</p>
 			<br />
-			<a  href="{{ page.artist_two_url }}"><img class="third" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
+			<!-- </div> -->
+			<div class="section artist-two">
+			<a  href="{{ page.artist_url }}"><img class="two-thirds" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
+			<div class="clear">
+				<br>
+				<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
+				<br>
+				<br>
+			</div>
+			</div>
+			<div class="section artist-two">
+			<a  href="{{ page.artist_two_url }}"><img class="two-thirds" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
 			<div class="clear">
 			<br>
 				<a href="{{ page.artist_two_url }}"><button>More about {{ page.artist_two_name_short }}</button></a>
 			</div>
-		</div>
+			</div>
+			</div>
+		
 		
 		{% else %}
 

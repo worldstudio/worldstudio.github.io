@@ -73,6 +73,11 @@ footer {
   background-color: white;
 }
 
+.artist-two {
+  width: 50%;
+  float: left;
+}
+
 .col-1 {
   width: 18%; 
   position: relative;  
@@ -213,8 +218,8 @@ img#hashtagFooter{
   float: left;
 }
 
-.feature img{
-  width: 75%;
+.feature img, img.feature{
+  width: 75% !important;
 }
 
 .themeTitle, .themeCollaborators, .menuItems{
