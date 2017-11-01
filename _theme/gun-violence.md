@@ -15,7 +15,7 @@ left_p_html: >-
 right_p_html: >-
   <p>There are many factors that lead disenfranchised youth to pick up guns: the
   cycle of violence is perpetuated by chronic loss, traumatic stress and grief,
-  poverty, inadequate schools and housing, unemployment, and
+  poverty, inadequate schools and housing, unemployment and
   incarceration.</p><p>&nbsp;</p><p>Preventative education must go deeper than
   explaining the dangers of gun violence and the potential for injury, death or
   prison. Empowering young people with leadership skills &ndash; including
@@ -41,7 +41,7 @@ artist_image: /img/artists/edel.png
 artist_bio_html: >-
   <p>Edel Rodriguez is a Cuban American artist whose work has been exhibited
   internationally. Inspired by personal history, religious rituals, politics,
-  memory, and nostalgia, his bold, figurative works are an examination of
+  memory and nostalgia, his bold, figurative works are an examination of
   identity, cultural displacement and mortality. Socialist propaganda and
   western advertising, island culture and contemporary city life are all aspects
   of his life that continue to inform his work. Rodriguez has created artwork
