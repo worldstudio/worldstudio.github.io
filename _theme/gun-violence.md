@@ -36,7 +36,7 @@ organization_bio_html: >-
   activists.</p>
 artist_name: Edel Rodriguez
 artist_name_short: Edel
-artist_url: edelr.com
+artist_url: 'http://edelr.com/'
 artist_image: /img/artists/edel.png
 artist_bio_html: >-
   <p>Edel Rodriguez is a Cuban American artist whose work has been exhibited
