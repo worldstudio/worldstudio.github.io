@@ -24,7 +24,7 @@ right_p_html: >-
   vulnerable neighborhoods.</p>
 organization_name: NYAGV Education Fund
 organization_name_short: NYAGV
-organization_url: nyagvedfund.org
+organization_url: 'http://nyagvedfund.org/'
 organization_image: /img/organizations/nyagv.png
 organization_bio_html: >-
   <p>The mission of New Yorkers Against Gun Violence Education Fund (NYAGV Ed
