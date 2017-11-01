@@ -17,7 +17,7 @@ right_p_html: >-
   consideration, and for many disabled consumers disability is all but
   equivalent to a lack of choice. Assistive devices always end up stigmatizing
   their user.</p><p>&nbsp;</p><p>According to the National Institute of Health,
-  for example, only one-fifth of people who could bene t from hearing aids
+  for example, only one-fifth of people who could benefit from hearing aids
   actually use them. Failure to use hearing aids can lead to early-onset
   dementia and even early death, and yet many people reject their use because of
   the social stigma associated with them. Could this stigma actually be deadly?
