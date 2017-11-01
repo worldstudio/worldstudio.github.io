@@ -29,7 +29,7 @@ organization_url: 'http://madeinbrownsville.org'
 organization_image: /img/organizations/mib.png
 organization_bio_html: >-
   <p>Made in Brownsville is a Brooklyn-based creative agency that supports
-  economic mobility for under&ndash;resourced Brownsville youth through
+  economic mobility for under-resourced Brownsville youth through
   apprenticeships in design and technology. The organization trains and employs
   young people, including those with juvenile offenses, in the fields of
   silkscreening, 3D printing, robotics and cinematography, among others. Made in
