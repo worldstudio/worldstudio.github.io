@@ -651,7 +651,7 @@ a.footerLinks {
     grid-column: 6/11;
   }
 
-  .feature img {
+  .feature img, img.feature {
     width: 100%;
   }
 
@@ -735,7 +735,7 @@ a.footerLinks {
     justify-self: left;
   }
 
-  .feature img {
+  .feature img, img.feature {
     width: 100%;
   } 
 
