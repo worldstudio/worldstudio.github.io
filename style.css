@@ -688,6 +688,7 @@ a.footerLinks {
   display: block;
   grid-column: 2/9;
   grid-row: 1;
+  transition: 0.1s;
   }
 
   .swipe img {
