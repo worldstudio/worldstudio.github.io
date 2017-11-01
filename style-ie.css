@@ -218,8 +218,13 @@ img#hashtagFooter{
   float: left;
 }
 
-.feature img, img.feature{
-  width: 75% !important;
+.feature img{
+  width: 75%;
+}
+
+img.two-thirds{
+  width: 66%;
+  float: left;
 }
 
 .themeTitle, .themeCollaborators, .menuItems{
@@ -581,6 +586,11 @@ a.footerLinks {
     font-size: 10pt;
   }
 
+  button {
+    font-size: 0.7em;
+    min-width: 110px;
+  }
+
   #topNavLogo  {
     width: 25%;
   }
@@ -619,6 +629,11 @@ a.footerLinks {
   
   h3 {
     font-size: 11pt;
+  }
+
+  button {
+    font-size: 0.6em;
+    min-width: 100px;
   }
 
   #individualSideOne{ 
@@ -682,6 +697,15 @@ a.footerLinks {
 
   #individualSideOne{ 
   margin-left: 1%;
+  }
+
+  button {
+    font-size: 0.6em;
+    min-width: 110px;
+  }
+  
+  .artist-two{
+    max-width: 50%;
   }
 
   #menuButton, #menuDrop {
