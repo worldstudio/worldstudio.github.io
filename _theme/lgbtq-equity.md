@@ -17,7 +17,7 @@ right_p_html: >-
   a gender&ndash; expansive youth&rsquo;s life. Research shows that supportive
   parenting significantly affects children&rsquo;s outlook on life, mental
   health and self&ndash;esteem. Rejecting parenting practices appear to be
-  directly correlated to gender&ndash;expansive and transgender youth being more
+  directly correlated to gender-expansive and transgender youth being more
   depressed and suicidal. The most crucial thing parents can do is to allow
   their gender non-conforming children to be exactly who they are.</p>
 organization_name: Hetrick-Martin Institute
@@ -42,7 +42,7 @@ artist_bio_html: >-
   Rivera is fascinated by the social history of photography and the evolution of
   identity, sexuality and gender in relationships. Her work has been featured in
   <em>The New York Times</em>, <em>The Guardian</em>, <em>Harper&rsquo;s
-  Bazaar</em>, <em>Forbes</em>, <em>Elle</em>, and <em>The Boston Globe</em>
+  Bazaar</em>, <em>Forbes</em>, <em>Elle</em> and <em>The Boston Globe</em>
   among many others. Recent honors include the D&amp;AD Next Photographer
   Shortlist and the Magnum Photography Award for Portraiture.</p>
 artist_two: false
