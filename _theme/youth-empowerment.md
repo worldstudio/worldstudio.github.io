@@ -44,7 +44,7 @@ artist_bio_html: >-
   multidisciplinary studio with a special interest in typography as
   communication. Anderson is an AIGA Medalist and member of the Citizens&rsquo;
   Stamp Advisory Committee for the USPS. Newton is a board member of the Type
-  Directors Club, and has illustrated Dan Savage&rsquo;s column for The Stranger
+  Directors Club, and has illustrated Dan Savage&rsquo;s column for <i>The Stranger</i>
   for over fifteen years. Both Gail and Joe teach at the School of Visual
   Arts.</p>
 artist_two: false
