@@ -5,7 +5,7 @@ quote: Ethnic bias and stereotyping erode the stability of American families.
 main_entry: >-
   Dangerous political rhetoric has contributed to a significant rise in
   incidents of Islamophobic bias in the United States and abroad. From 2014 to
-  2016, anti–Muslim bias incidents jumped 65 percent. In that two-year period,
+  2016, anti-Muslim bias incidents jumped 65 percent. In that two-year period,
   hate crimes targeting Muslims surged 584 percent.
 left_p_html:
 right_p_html: >-
@@ -28,7 +28,7 @@ organization_bio_html: >-
   Relations, the leading Muslim civil rights organization in the Nation. Our
   mission is to protect civil liberties, empower American Muslims and build
   coalitions that promote justice and mutual understanding. Through legal
-  representation, education and advocacy, CAIR&ndash;NY empowers the American
+  representation, education and advocacy, CAIR-NY empowers the American
   Muslim community, encouraging their participation in political and social
   activism. CAIR&ndash;NY counsels and advocates on behalf of Muslims who have
   experienced discrimination, harassment or hate crimes.</p>
