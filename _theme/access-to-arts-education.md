@@ -18,7 +18,7 @@ right_p_html: >-
   programming do better across the board academically, with higher grades and
   test scores as well as increased high school graduation rates and college
   enrollment. They become more active and engaged citizens by voting,
-  volunteering, and engaging in school and local politics.</p>
+  volunteering and engaging in school and local politics.</p>
 organization_name: Opening Act
 organization_name_short: Opening Act
 organization_url: 'http://openingact.org/'
@@ -28,7 +28,7 @@ organization_bio_html: >-
   playing field for high school students by partnering with NYC schools that
   have lower than average graduation rates (as few as 33% of students graduating
   in four years) and a lack of theater programming. We give students
-  opportunities to develop leadership, community, and commitment through
+  opportunities to develop leadership, community and commitment through
   innovative, high quality, free theater programming. Our students have powerful
   stories to tell. Opening Act gives them a stage on which to be heard.</p>
 artist_name: Rafael Esquer
