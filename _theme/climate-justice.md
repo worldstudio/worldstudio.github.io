@@ -10,7 +10,7 @@ main_entry: >-
   seeing now.
 left_p_html: >-
   <p>&nbsp;</p><p>As of this writing, the top five hottest years on record are
-  2016, 2015, 2014, 2013, and 2010. 2017 so far is the second&ndash;hottest year
+  2016, 2015, 2014, 2013 and 2010. 2017 so far is the second&ndash;hottest year
   on record, after 2016.</p>
 right_p_html: >-
   <p>Climate change is not just an environmental issue, or a social justice
@@ -38,7 +38,7 @@ artist_name_short: DJ Spooky
 artist_url: 'http://djspooky.com/'
 artist_image: /img/artists/dj-spooky.png
 artist_bio_html: >-
-  <p>DJ Spooky aka Paul D. Miller is a composer, multimedia artist, editor and
+  <p>DJ Spooky aka Paul D. Miller, is a composer, multimedia artist, editor and
   author. His DJ MIXER iPad app has seen more than 12 million downloads in the
   last year. In 2012-2013 he was the first artist-in-residence at the
   Metropolitan Museum of Art in NYC. He&rsquo;s produced and composed work for
