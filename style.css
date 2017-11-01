@@ -193,8 +193,17 @@ img.third{
   float: left;
 }
 
+.right {
+  float: right !important;
+}
+
 img#hashtagFooter{
   width: 40%;
+  float: left;
+}
+
+img.two-thirds{
+  width: 66%;
   float: left;
 }
 

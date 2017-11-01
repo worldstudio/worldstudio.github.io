@@ -44,7 +44,7 @@ artist_bio_html: >-
   collection, the Denver Art Museum, the Museum of Fine Art in Montreal, the
   Poster Museum in Poland and the Olympic Museum in Switzerland, among
   others.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

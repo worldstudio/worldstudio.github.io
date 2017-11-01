@@ -8,15 +8,22 @@ layout: greyPage
 		<h3 class ="red">{{ page.issue }}</h3> 
 		
 		<div class="clear"><br></div>
-		
+
+		{% if page.artist_two == true %}
+		<p><strong>{{ page.organization_name }} + <br>
+		{{ page.artist_name }} + <br>
+		{{ page.artist_two_name }} </strong></p> 
+
+		{% else %}
 		<p><strong>{{ page.organization_name }} + <br>
 		{{ page.artist_name }}</strong></p> 
 		
+		{% endif %}
 		<div class="clear"><br></div>
 
 	</div>
 	<div class="section col-2-3">
-		<div class="feature"><img alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}"></div> 
+		<img class="feature" alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}">
 	</div>
 	
 	<div class="section col-4-5">
@@ -62,14 +69,12 @@ layout: greyPage
 				{{ page.organization_bio_html | newline_to_br }}
 			</p>
 			<br />
-		</div>
-	<!-- <div class="section col-2-3">
 				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
 			<div class="clear">
 				<br>
 				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
 			</div>	
-	</div> -->
+	</div>
 
 	
 		{% if page.artist_two == true %}
@@ -81,47 +86,26 @@ layout: greyPage
 				{{ page.artist_bio_html | newline_to_br }}
 			</p>
 			<br />
-		
+			<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
+			<div class="clear">
+			<br>
+			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
+			<br>
+			<br>
+			</div>
 			<p><strong>{{ page.artist_two_name }}</strong></p>
-
 			<br>
 			<p>
 				{{ page.artist_two_bio_html | newline_to_br }}
+
 			</p>
 			<br />
-		</div>
-		
-		<div class="section col-2-3">
-				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
+			<a  href="{{ page.artist_two_url }}"><img class="third" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
 			<div class="clear">
-				<br>
-				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
-			</div>	
-		</div>
-		
-			<div class="section col-4">
-			<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-
-			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-			
-			</div>
-			
-			<div class="section col-5">
-			<a  href="{{ page.artist_two_url }}"><img class="third" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a>
-
-			<!-- <div class="clear">
-				<br>
-			</div> -->
-
-			<a href="{{ page.artist_two_url }}"><button>More about {{ page.artist_two_name_short }}</button></a>
-			</div>
-
-			<!-- <div class="clear">
 			<br>
-			</div> -->
-			
-		
-		
+				<a href="{{ page.artist_two_url }}"><button>More about {{ page.artist_two_name_short }}</button></a>
+			</div>
+		</div>
 		
 		{% else %}
 
@@ -132,25 +116,12 @@ layout: greyPage
 				{{ page.artist_bio_html | newline_to_br }}
 			</p>
 		<br />
-		</div>
-		
-		<div class="section col-2-3">
-				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
-			<div class="clear">
-				<br>
-				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
-			</div>	
-		</div>
-
-		<div class="section col-4-5">
-			<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
+		<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
 		<div class="clear">
 			<br>
 			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
 		</div>
 		</div>
-
-		
 		{% endif %}
 	
 	

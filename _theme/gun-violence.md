@@ -47,7 +47,7 @@ artist_bio_html: >-
   of his life that continue to inform his work. Rodriguez has created artwork
   for numerous clients, including The New York Times, TIME Magazine and The New
   Yorker.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

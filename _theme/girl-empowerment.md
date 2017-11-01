@@ -45,7 +45,7 @@ artist_bio_html: >-
   Business by Fast Company magazine. Jennifer Kinon has lectured around the
   world on the role of brand identity systems, and in 2016 served as Design
   Director of Hillary for America.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

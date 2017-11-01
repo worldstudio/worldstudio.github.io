@@ -45,7 +45,7 @@ artist_bio_html: >-
   Bazaar</em>, <em>Forbes</em>, <em>Elle</em>, and <em>The Boston Globe</em>
   among many others. Recent honors include the D&amp;AD Next Photographer
   Shortlist and the Magnum Photography Award for Portraiture.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

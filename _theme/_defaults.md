@@ -15,7 +15,7 @@ artist_name_short:
 artist_url:
 artist_image:
 artist_bio_html:
-artist_two:
+artist_two: false
 artist_two_name:
 artist_two_name_short:
 artist_two_url:

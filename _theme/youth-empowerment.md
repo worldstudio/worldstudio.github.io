@@ -47,7 +47,7 @@ artist_bio_html: >-
   Directors Club, and has illustrated Dan Savage&rsquo;s column for The Stranger
   for over fifteen years. Both Gail and Joe teach at the School of Visual
   Arts.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

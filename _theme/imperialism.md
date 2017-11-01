@@ -43,7 +43,7 @@ artist_bio_html: >-
   Whitney Museum, the New Museum of Contemporary Art (NY) and the Akron Art
   Museum, and has been included in recent exhibitions at MoMA PS1, the Walker
   Art Center and the Brooklyn Museum.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

@@ -45,7 +45,7 @@ artist_bio_html: >-
   magazine, and her work has been shown at the Queens Museum, the Tate Modern,
   the Venice Biennale di Architettura and the Jeu de Paume, among many
   others.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

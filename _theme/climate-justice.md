@@ -50,7 +50,7 @@ artist_bio_html: >-
   electronic music and digital media, is a best-selling title for MIT Press. He
   has been featured in a number of high-profile publications, such as: Elle, CNN
   and SyFy.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:

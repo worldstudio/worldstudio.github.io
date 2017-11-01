@@ -20,7 +20,12 @@ layout: greyPage
 				
 				<h3 class ="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
+				{% if theme_item.artist_two == true %}
+				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }} + <br>
+				{{ theme_item.artist_two_name }}</strong> <br><br></p>
+				{% else %}
 				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong> <br><br></p>
+				{% endif %}
 				<div class="clear"></div>
 				<!-- <img src="img/icons/swipe.svg" class="mobileSwipe"> -->
 				

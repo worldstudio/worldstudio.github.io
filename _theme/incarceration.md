@@ -51,7 +51,7 @@ artist_bio_html: >-
   Seymour: The Obsessive Images of Seymour Chwast. He is in the Art Directors
   Hall of Fame and is the recipient of the 1985 Medal from the American
   Institute of Graphic Arts.</p>
-artist_two: 0
+artist_two: false
 resources_html: >-
   <p>Please check back soon for updated content</p>
 _comments:
