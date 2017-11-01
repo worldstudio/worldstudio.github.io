@@ -160,8 +160,12 @@ img.mobileSwipe{
   width: 100%;
 }
 
+.swipe {
+display: none;
+}
+
  a.image {
-  display: grid;  
+  display: grid; 
  }
 
 ul {
@@ -679,22 +683,24 @@ a.footerLinks {
     font-size: 20pt;
   }
 
-  /*#indexAll {
-    background-image: url("img/icons/swipe.svg");
-    background-repeat: no-repeat;
-    background-position: 0% 91%;
-  }*/
+  .swipe {
+  z-index: 1000;
+  display: block;
+  grid-column: 2/9;
+  grid-row: 1;
+  }
+
+  .swipe img {
+    padding-top: 15px;
+    opacity: 0.7;
+  }
+
 
   #indexThemes {
     grid-column: 2/9;
     grid-row: 1;
     margin: 0 0 12% 0;
     transition: 0.2s;
-  }
-
-  img.mobileSwipe{
-    width: 40px;
-    display: inherit;
   }
 
   .section, .individual .section, .about .section {

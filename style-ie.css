@@ -30,6 +30,10 @@ footer {
   z-index: 1000;
 }
 
+.swipe {
+display: none !important;
+}
+
 .container {
   /*display: table;
   max-width: 98%;*/

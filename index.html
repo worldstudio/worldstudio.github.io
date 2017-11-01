@@ -3,7 +3,9 @@ layout: greyPage
 ---
 <div class="container" id="indexAll">
 
-
+<div class="swipe" id="swipe">
+	<img src="img/icons/swipe.svg">
+</div>
 {% for theme_item in site.theme %}
 
 	{% assign col_item = forloop.index | modulo: 5 %}
@@ -47,6 +49,8 @@ var treshold = 100; //threshold for noise
 var slidesName = document.getElementsByClassName("themeMain");
 var firstSlide = slidesName[0];
 
+var swipe  = document.getElementById("swipe");
+
 // test for mobile
 function isMobileDevice() {
     return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500); 
@@ -56,7 +60,7 @@ function isMobileDevice() {
 function handleTouch(start,end, cbL, cbR){ 
   var xDist = endX - startX;
   var yDist = endY - startY;
-  
+
   console.log(xDist);
   console.log(Math.abs(endY - startY));
 
@@ -77,6 +81,13 @@ if (isMobileDevice() == true) {
 
 function mobileLayout() {
 // animate sliding card deck
+
+	window.addEventListener('touchstart', function(event){
+	   console.log(event);
+	   swipe.style.display = "none";
+	  });
+	   
+
 
 	orderThemes(firstTheme);
 
