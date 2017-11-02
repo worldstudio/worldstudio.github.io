@@ -692,8 +692,8 @@ a.footerLinks {
   }
 
   .swipe img {
-    padding-top: 15px;
-    opacity: 0.7;
+    padding-top: 40px;
+    opacity: 0.95;
   }
 
 
@@ -701,7 +701,7 @@ a.footerLinks {
     grid-column: 2/9;
     grid-row: 1;
     margin: 0 0 12% 0;
-    transition: 0.2s;
+    /*transition: 0.2s;*/
   }
 
   .section, .individual .section, .about .section {
