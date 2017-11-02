@@ -1,6 +1,6 @@
 ---
 image_path: /img/lgbtq-equity.jpg
-issue: LGBTQ Equity
+issue: Gender Expression
 quote: Gender-Fluid. Gender-less. Trans-gender. Non-gender.
 main_entry: >-
   Many young people are articulating ever more varied understandings of gender
