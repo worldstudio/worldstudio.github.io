@@ -20,7 +20,7 @@ right_p_html: >-
   xenophobia and discrimination do not have to be our reality. Together, we can
   reject hate and unburden our nation from continued a affliction.</p>
 organization_name: Council on American-Islamic Relations
-organization_name_short: CAIR
+organization_name_short: CAIR-NY
 organization_url: 'https://www.cair.com/'
 organization_image: /img/organizations/cair.png
 organization_bio_html: >-

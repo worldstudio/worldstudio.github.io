@@ -24,7 +24,7 @@ right_p_html: >-
   of negative outcomes, including prolonged periods of unemployment, substance
   abuse and incarceration.</p>
 organization_name: Made in Brownsville
-organization_name_short: Made
+organization_name_short: MiB
 organization_url: 'http://madeinbrownsville.org'
 organization_image: /img/organizations/mib.png
 organization_bio_html: >-
