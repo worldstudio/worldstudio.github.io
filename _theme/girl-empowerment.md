@@ -1,6 +1,6 @@
 ---
 image_path: /img/womens-leadership.jpg
-issue: Girl Empowerment
+issue: Girls Empowerment
 quote: A tough place for a girl to grow up.
 main_entry: >-
   The effects of inner-city social turmoil that took place in the 1960’s and
