@@ -11,17 +11,18 @@
 	<!-- <link href="style.css" rel="stylesheet"> -->
 	<script src="js/main.js" type="text/javascript">
 	</script>
-	<link rel="stylesheet" href="reset.css"> 
+	<!-- <link rel="stylesheet" href="reset.css">  -->
 	<script>
 
 		var ua = window.navigator.userAgent;
 		var browser = String(ua);
 		var ie = ['NET', 'Edge', 'Trident', 'MSIE']
+		var old = (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) && (/OS [1-9]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent));
 		
 		function checker(value) {
 
 		  for (var i = 0; i < ie.length; i++) {
-		    if (value.indexOf(ie[i]) > -1) {
+		    if (value.indexOf(ie[i]) > -1 || old) {
 		      
 		      return true;
 		    }

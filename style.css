@@ -7,6 +7,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 150px;
+}
+
 body {
   margin: 0;
 }
@@ -14,7 +20,9 @@ body {
 footer {
   background-color: #908f8f;
   width: 100%;
-
+  position: absolute;
+  bottom: 0;
+  height: 150px;
 }
 
 #myNav {
@@ -606,10 +614,24 @@ a.footerLinks {
   width: 60%;
   }
 
+  .themeMain {
+    top: 0 !important;
+    left: 0 !important;
+  }
+
 
 }
 
 @media all and (max-width: 726px) and (min-width: 481px) {
+
+  html {
+    padding-bottom: 200px;
+  }
+
+  footer {
+    height: 200px;
+  }
+
   h1 {
     font-size: 20pt;
   }
@@ -674,10 +696,17 @@ a.footerLinks {
     left: 0 !important;
   }
 
-
 }
 
 @media all and (max-width: 480px) and (min-width: 320px) {
+
+  html {
+    padding-bottom: 250px;
+  }
+
+  footer {
+    height: 250px;
+  }
 
   h1 {
     font-size: 20pt;

@@ -53,9 +53,10 @@ var swipe  = document.getElementById("swipe");
 
 // test for mobile
 function isMobileDevice() {
-    return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || (window.innerWidth < 500); 
+    return (window.innerWidth < 480); 
 }; 
 // || (window.innerWidth < 500); -- keep for tests
+// (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1) || 
 
 function handleTouch(start,end, cbL, cbR){ 
   var xDist = endX - startX;
