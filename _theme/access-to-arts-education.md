@@ -12,13 +12,13 @@ left_p_html: >-
   education in New York City public schools remains woefully
   underfunded.</p><p>&nbsp;</p><p>&nbsp;</p>
 right_p_html: >-
-  <p>Worse yet, students attending schools in economically under-served
-  communities have disproportionately poorer access to arts resources than those
-  in more affluent areas.</p><p>&nbsp;</p><p>Youth who participate in arts
-  programming do better across the board academically, with higher grades and
-  test scores as well as increased high school graduation rates and college
-  enrollment. They become more active and engaged citizens by voting,
-  volunteering and engaging in school and local politics.</p>
+  <p>&nbsp;</p><p>Worse yet, students attending schools in economically
+  under-served communities have disproportionately poorer access to arts
+  resources than those in more affluent areas.</p><p>&nbsp;</p><p>Youth who
+  participate in arts programming do better across the board academically, with
+  higher grades and test scores as well as increased high school graduation
+  rates and college enrollment. They become more active and engaged citizens by
+  voting, volunteering and engaging in school and local politics.</p>
 organization_name: Opening Act
 organization_name_short: Opening Act
 organization_url: 'http://openingact.org/'
@@ -45,8 +45,7 @@ artist_bio_html: >-
   Poster Museum in Poland and the Olympic Museum in Switzerland, among
   others.</p>
 artist_two: false
-resources_html: >-
-  <p>Please check back soon for updated content</p>
+resources_html: <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title
