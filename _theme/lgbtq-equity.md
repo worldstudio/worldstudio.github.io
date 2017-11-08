@@ -11,7 +11,7 @@ left_p_html: >-
   with which they interact, gender non- conforming youth are facing rejection,
   discrimination and bullying at levels well beyond their equals.</p>
 right_p_html: >-
-  <p>Without a shared understanding of gender and sexual identities,
+  <p>&nbsp;</p><p>Without a shared understanding of gender and sexual identities,
   interactions can often occur with unanticipated &ndash; and even harmful
   &ndash; consequences.</p><p>&nbsp;</p><p>Parents play a very powerful role in
   a gender&ndash; expansive youth&rsquo;s life. Research shows that supportive
