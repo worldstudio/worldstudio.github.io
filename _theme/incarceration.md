@@ -18,7 +18,7 @@ left_p_html: >-
   already marginalized communities &ndash; people who are poor, people of color,
   people with mental illness.</p>
 right_p_html: >-
-  <p>The need to reform our criminal justice system remains a point of agreement
+  <p>&nbsp;</p><p>The need to reform our criminal justice system remains a point of agreement
   among public leaders of red and blue states alike, as well as the local
   government actors who are in charge of delivering much needed changes to our
   nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
