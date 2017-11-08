@@ -13,7 +13,7 @@ left_p_html: >-
   2016, 2015, 2014, 2013 and 2010. 2017 so far is the second&ndash;hottest year
   on record, after 2016.</p>
 right_p_html: >-
- <p>&nbsp;</p><p> Climate change is not just an environmental issue, or a social justice
+  <p>&nbsp;</p><p>Climate change is not just an environmental issue, or a social justice
   issue, or an economic issue. It is one of the biggest challenges humanity has
   ever faced, and the consequences impact everything from food shortages to mass
   migration to escalating political discord and conflict. It is essential that
