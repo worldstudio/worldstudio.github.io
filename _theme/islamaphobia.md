@@ -9,7 +9,7 @@ main_entry: >-
   hate crimes targeting Muslims surged 584 percent.
 left_p_html:
 right_p_html: >-
-  <p>Religious beliefs were not the only trigger of anti&ndash;Muslim bias
+  <p>&nbsp;</p><p>Religious beliefs were not the only trigger of anti&ndash;Muslim bias
   incidents. The victim&rsquo;s ethnicity or national origin accounted for 35
   percent of the total, and in many cases an individual&rsquo;s name was the
   lone trigger factor. Xenophobic policies and propaganda exert a heavy human
