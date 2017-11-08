@@ -13,7 +13,7 @@ left_p_html: >-
   under&ndash;served communities of color are disproportionately impacted by the
   flow of illegal guns from states with lax gun laws.</p>
 right_p_html: >-
-  <p>There are many factors that lead disenfranchised youth to pick up guns: the
+  <p>&nbsp;</p><p>There are many factors that lead disenfranchised youth to pick up guns: the
   cycle of violence is perpetuated by chronic loss, traumatic stress and grief,
   poverty, inadequate schools and housing, unemployment and
   incarceration.</p><p>&nbsp;</p><p>Preventative education must go deeper than
