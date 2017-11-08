@@ -9,7 +9,7 @@ main_entry: >-
   disinvestment as riots flared, buildings burned and drugs were rampant.
 left_p_html:
 right_p_html: >-
-  <p>Today, the Lower East Side remains one of the most ethnically and
+  <p>&nbsp;</p><p>Today, the Lower East Side remains one of the most ethnically and
   economically diverse neighborhoods in New York, with a substantial
   foreign-born and working-poor population. Poverty rates in the Lower East Side
   remain amongst the highest in the city, in spite of a recent influx of
