@@ -9,3 +9,6 @@ _comments:
     partners)
   partner_logo_vertical: Check if orientation of partner logo is vertical
 ---
+
+
+AMPL!FY is funded with generous support from Exposure NY, New York City Department of Transportation’s Art Program and Embrey Family Foundation. Additional support from Museum of Arts and Design, Harlem Stage, The New School - Parsons School of Design, Harvard University and Massimo Lacobini.
