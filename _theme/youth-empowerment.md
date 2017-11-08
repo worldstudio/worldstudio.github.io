@@ -13,7 +13,7 @@ left_p_html: >-
   non&ndash;existent. In the United States an estimated 3 million youths aged
   16&ndash;24 are disconnected. The majority are between</p>
 right_p_html: >-
-  <p>20 and 24 years old, which suggests the problem intensifies after high
+  <p>&nbsp;</p><p>20 and 24 years old, which suggests the problem intensifies after high
   school graduation. They are disproportionately people of
   color.</p><p>&nbsp;</p><p>Rates of disconnection vary widely by metropolitan
   area, and in some places young blacks and Latinos are up to 3&ndash;6 times
