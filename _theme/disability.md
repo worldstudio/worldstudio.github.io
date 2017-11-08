@@ -13,7 +13,7 @@ left_p_html: >-
   stigmatized the appearance of the products disabled people need most. Does
   disability need a re-design?</p>
 right_p_html: >-
-  <p>Products made for disabled people are rarely designed for esthetic
+  <p>&nbsp;</p><p>Products made for disabled people are rarely designed for esthetic
   consideration, and for many disabled consumers disability is all but
   equivalent to a lack of choice. Assistive devices always end up stigmatizing
   their user.</p><p>&nbsp;</p><p>According to the National Institute of Health,
