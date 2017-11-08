@@ -24,7 +24,7 @@ right_p_html: >-
   nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
   solutions are in our backyards. Together we can build stronger communities
   and, overall, a safer U.S.</p><p>&nbsp;</p>
-organization_name: Vera Institute for Justice
+organization_name: Vera Institute of Justice
 organization_name_short: Vera
 organization_url: 'https://www.vera.org/'
 organization_image: /img/organizations/vera.png
