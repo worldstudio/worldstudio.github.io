@@ -8,7 +8,7 @@ main_entry: >-
   great strides and begun to get at least a glimpse of a whole new world.
 left_p_html: <p>&nbsp; &nbsp;</p><p>&nbsp;</p>
 right_p_html: >-
-  <p>If you can envision a world without any imperialism, exploitation,
+  <p>&nbsp;</p><p>If you can envision a world without any imperialism, exploitation,
   oppression &ndash; and the whole philosophy that rationalizes it &ndash; a
   world without division into classes or even different nations, and all the
   narrow&ndash; minded, selfish, outmoded ideas that uphold this; if you can
