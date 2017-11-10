@@ -17,12 +17,13 @@
 		var ua = window.navigator.userAgent;
 		var browser = String(ua);
 		var ie = ['NET', 'Edge', 'Trident', 'MSIE']
-		var old = (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) && (/OS [1-9]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent));
+		var old = (/(iPhone|iPod|iPad)/i.test(navigator.userAgent)) && (/OS [1-10]_\d(_\d)? like Mac OS X/i.test(navigator.userAgent));
+		var iPad = (/iPad/i.test(navigator.userAgent));
 		
 		function checker(value) {
 
 		  for (var i = 0; i < ie.length; i++) {
-		    if (value.indexOf(ie[i]) > -1 || old) {
+		    if (value.indexOf(ie[i]) > -1 || old || iPad) {
 		      
 		      return true;
 		    }
@@ -35,6 +36,7 @@
 		} else {
 			document.write("<link type=\"text/css\" rel=\"stylesheet\" href=\"style.css\">");	
 		}
+	// alert(checker(browser))
 	</script>
 
 	{% include ganalytics.html %}
