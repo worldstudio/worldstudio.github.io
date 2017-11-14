@@ -34,9 +34,9 @@ layout: greyPage
 			<br>
 		</div>
 
-		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}+%23SocialJustice&via=amplify_justice"><button>Tweet this quote</button></a>
+		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}&via=amplify_justice"><button>Tweet this quote</button></a>
 		
-		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} -->
+		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} //second hashtag: +%23SocialJustice -->
 		
 	</div>
 	
