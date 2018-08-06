@@ -6,7 +6,7 @@ The following instructions are applicable to content management on [CloudCannon]
 
 Available options:
 	
-	* Modify About page 
+	* Modify About page test
 	* Add a Theme/poster
 	* Add a Partner
 	* Upload Images
