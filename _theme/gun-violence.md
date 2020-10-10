@@ -48,8 +48,6 @@ artist_bio_html: >-
   for numerous clients, including <i>The New York Times</i>, <i>TIME Magazine</i> and <i>The New
   Yorker</i>.</p>
 artist_two: false
-resources_html: >-
-  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title

@@ -44,8 +44,6 @@ artist_bio_html: >-
   Museum, and has been included in recent exhibitions at MoMA PS1, the Walker
   Art Center and the Brooklyn Museum.</p>
 artist_two: false
-resources_html: >-
-  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title

@@ -21,7 +21,6 @@ artist_two_name_short:
 artist_two_url:
 artist_two_image:
 artist_two_bio_html:
-resources_html:
 
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
@@ -38,5 +37,4 @@ _comments:
   main_entry: Leading paragraph
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
-  resources_html: Populate with resources 
 ---

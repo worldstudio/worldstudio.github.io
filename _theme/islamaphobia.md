@@ -46,8 +46,6 @@ artist_bio_html: >-
   the Venice Biennale di Architettura and the Jeu de Paume, among many
   others.</p>
 artist_two: false
-resources_html: >-
-  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title

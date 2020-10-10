@@ -51,8 +51,6 @@ artist_two_url: 'https://www.instagram.com/jerronmarcel/'
 artist_two_image: /img/artists/jerron-herron.png
 artist_two_bio_html: >-
   <p>Jerron is a dancer, writer and administrator for Heidi Latsky Dance. He was featured in Open Studio with Jared Bowen for PBS, and recently in Dancing with Cerebral Palsy by Great Big Story.</p>
-resources_html: >-
-  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title

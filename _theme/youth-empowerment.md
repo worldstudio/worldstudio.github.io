@@ -48,8 +48,6 @@ artist_bio_html: >-
   for over fifteen years. Both Gail and Joe teach at the School of Visual
   Arts.</p>
 artist_two: false
-resources_html: >-
-  <p>Please check back soon for updated content</p>
 _comments:
   image_path: Add or upload a poster from img collection (File Browser > img > partners)
   issue: Theme title
