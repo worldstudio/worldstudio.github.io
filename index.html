@@ -1,11 +1,14 @@
 ---
 layout: greyPage
 ---
-<div class="container" id="indexAll">
-
-<div class="swipe" id="swipe">
-	<img src="img/icons/swipe.svg">
+<div class="container"> 
+	<div class="section col-1-5 intro">
+	<h1 class="white">Leveraging the power of <br> <span class="red">art</span> and <span class="red">design</span> to advance <br> the front lines of <span class="red">social justice</span></h1>
 </div>
+{% include rule-break-header.html %}
+</div>
+
+<div class="container" id="indexAll">
 {% for theme_item in site.theme %}
 
 	{% assign col_item = forloop.index | modulo: 5 %}
@@ -29,15 +32,13 @@ layout: greyPage
 				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong> <br><br></p>
 				{% endif %}
 				<div class="clear"></div>
-				<!-- <img src="img/icons/swipe.svg" class="mobileSwipe"> -->
 				
 			</div></a>
 		 	<a href="{{ theme_item.url }}.html" class="image"><img src="{{ theme_item.image_path }}" alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"></a>
 		</div>
 
 {% endfor %}
-
-{% include rule-break-header.html %}
+</div>
 
 <script>
 var startX;
