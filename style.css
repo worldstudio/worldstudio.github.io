@@ -26,6 +26,13 @@ footer {
   clear:both;
   height: 150px; */
 }
+.light .rule {
+  background-color:#454545;
+}
+
+.light h3, .light p {
+  color: #454545
+} 
 
 .footer-content {
   padding-top: 1.5%;
@@ -150,8 +157,7 @@ footer {
 }
 
 .menuBar {
-  background-color: rgb(239,66,35); 
-  background-color: rgba(239,66,35,0.85); 
+  background-color: #ED1C24; 
 }
 
 
@@ -161,16 +167,17 @@ img.mobileSwipe{
 
 .themeContent{
   width: 100%;
-  background-color: rgba(239,66,35,0.85);
+  background-color: #ED1C24;
   position: absolute;
   height: 50%;
   bottom: 0;
-  -webkit-transition: opacity 0.3s;
-  transition: opacity 0.3s;
+  transform: translateY(101%);
+  -webkit-transition: transform 0.5s;
+  transition: transform 0.5s;
 }
 
-.themeContent:hover {
-  opacity: 0;
+.themeMain:hover .themeContent {
+  transform: translateY(0);
 }
 
 .rule {
@@ -274,14 +281,17 @@ h1 {
   /* color:#EF3F23; */
   margin: 0;
   font-weight: 100;
+  line-height: 1.1;
 }
 
-.red{
-    color: #EF3F23;
-    display: inline;
-    position: relative;
+.light .red, .red{
+    color: #ED1C24;
+    /* display: inline;
+    position: relative; */
   }
-
+.main-quote {
+  margin-bottom: 1.25rem;
+}
 .white {
   color: white;
 }
@@ -327,7 +337,7 @@ a {
 
 button {
   font-family: 'Alfa Slab One', cursive;
-  background-color: #EF3F23;
+  background-color: #ED1C24;
   padding: 5px;
   color: white;
   text-decoration: none;
@@ -397,7 +407,7 @@ a.footerLinks {
 }
 
 .st1 {
-  fill:#EF3F23;
+  fill: #ED1C24;
 }
 
 .st2 {
@@ -606,7 +616,7 @@ a.footerLinks {
   }
 
   h1 {
-    font-size: 28pt;
+    font-size: 32pt;
   }
   
   h3 {
@@ -640,11 +650,11 @@ a.footerLinks {
   }
 
   .logos img {
-    max-width: 100px;
+    max-width: 80px;
   }
 
   .logos-horizontal img {
-    max-height: 40px;
+    max-height: 30px;
   }
   
   img#hashtagFooter{

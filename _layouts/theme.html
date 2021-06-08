@@ -28,11 +28,11 @@ layout: greyPage
 	
 	<div class="section col-4-5">
 	
-		<h1>{{ page.quote | newline_to_br }}</h1>
+		<h1 class ="red main-quote">{{ page.quote | newline_to_br }}</h1>
 		
-		<div class="clear">
+		<!-- <div class="clear">
 			<br>
-		</div>
+		</div> -->
 
 		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}&via=amplify_justice"><button>Tweet this quote</button></a>
 		
@@ -73,10 +73,6 @@ layout: greyPage
 			</p>
 			<br />
 				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
-			<div class="clear">
-				<br>
-				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
-			</div>	
 	</div>
 
 	
@@ -99,19 +95,9 @@ layout: greyPage
 			<!-- </div> -->
 			<div class="section artist-two">
 			<a  href="{{ page.artist_url }}"><img class="two-thirds" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-			<div class="clear">
-				<br>
-				<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-				<br>
-				<br>
-			</div>
 			</div>
 			<div class="section artist-two">
 			<a  href="{{ page.artist_two_url }}"><img class="two-thirds" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
-			<div class="clear">
-			<br>
-				<a href="{{ page.artist_two_url }}"><button>More about {{ page.artist_two_name_short }}</button></a>
-			</div>
 			</div>
 			</div>
 		
@@ -126,10 +112,6 @@ layout: greyPage
 			</p>
 		<br />
 		<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-		<div class="clear">
-			<br>
-			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-		</div>
 		</div>
 		{% endif %}
 	
