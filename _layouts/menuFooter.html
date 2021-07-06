@@ -9,8 +9,6 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<!-- <link href="style.css" rel="stylesheet"> -->
-	<script src="js/main.js" type="text/javascript">
-	</script>
 	<!-- <link rel="stylesheet" href="reset.css">  -->
 	<script>
 
@@ -44,35 +42,29 @@
 <!-- dropdown menu -->
 	<header>
 		<div class="overlay" id="myNav">
-			<div class="container">
-				<div class="section col-4-5 menuBar" id="menuDrop">
-						{% include single-break.html %}
-					<div class="icon menuClose"><img alt="menu" onclick="closeNav()" src="img/icons/close-menu.svg"></div>
-						{% include single-break.html %}
+				<div class="menuBar" id="menuDrop">
+					<!-- <div class="icon menuClose"><img alt="menu" onclick="closeNav()" src="img/icons/close-menu.svg"></div> -->
 
 					<div class="menuItems">
 						<div class="clear">
-							<p>About</p><a href="about.html">
-							<h3>AMPL!FY</h3></a>
-
-								{% include single-break.html %}
-
-							<p>Explore the issues, artists and organizations</p>
-							
+							<ul class="themes">
 							{% for theme_item in site.theme %}
-							<a href="{{ theme_item.url }}.html"><h3>{{ theme_item.issue }}</h3></a>
-							<br>
+							<li class="menu-link"><a href="{{ theme_item.url }}.html"><h3>{{ theme_item.issue }}</h3></a></li>
 							{% endfor %}
+							</ul>
 
-							<br>
-								<a href="index.html" ><img alt="home" class="social" src="img/icons/home.svg"></a>
 
-							{% include single-break.html %}
+
+							<ul class="other">
+								<li class="menu-link"><a href="about.html">
+								<h3>About AMPL!FY</h3></a></li>
+								<li class="menu-link"><a href="/">
+								<h3>Home</h3></a></li>
+							</ul>
 							
 						</div>
 					</div>
 				</div>
-			</div>
 		</div>
 	</header>
 
@@ -96,4 +88,6 @@
 			</div>
 		</div>
 	</footer>
+	<script defer src="js/main.js" type="text/javascript">
+	</script>
 </html>
