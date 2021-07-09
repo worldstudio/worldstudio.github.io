@@ -5,9 +5,7 @@ layout: greyPage
 <div class="container main individual">
 
 	<div class="section col-1">
-		<h3 class ="red">{{ page.issue }}</h3> 
-		
-		<div class="clear"><br></div>
+		<h3 class ="red">{{ page.issue }}</h3><br>
 
 		{% if page.artist_two == true %}
 		<p><strong>{{ page.organization_name }} + <br>
@@ -19,7 +17,6 @@ layout: greyPage
 		{{ page.artist_name }}</strong></p> 
 		
 		{% endif %}
-		<div class="clear"><br></div>
 
 	</div>
 	<div class="section col-2-3">
@@ -28,48 +25,36 @@ layout: greyPage
 	
 	<div class="section col-4-5">
 	
-		<h1 class ="red main-quote">{{ page.quote | newline_to_br }}</h1>
-		
-		<!-- <div class="clear">
-			<br>
-		</div> -->
+		<h1 class ="red main-quote">{{ page.quote}}</h1>
 
 		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}&via=amplify_justice"><button>Tweet this quote</button></a>
 		
-		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} //second hashtag: +%23SocialJustice -->
-		
 	</div>
-	
-		{% include rule-break-copy.html %}
+		{% include rule-break.html %}
 		
 	<div class="section col-2-3" id = "individualSideOne">
-		<br>
 		<h3>{{ page.main_entry }}</h3>
 	
 		<p>
-			{{ page.left_p_html | newline_to_br }}
+			{{ page.left_p_html}}
 		</p>
 	</div>
 	<div class="section col-4-5">
-			<p>
-				{{ page.right_p_html | newline_to_br }}
-			</p>
+			<!-- <p> -->
+				{{ page.right_p_html}}
+			<!-- </p> -->
 	</div>
 	
-	{% include rule-break-copy-2.html %}
+	{% include rule-break.html %}
 
 	<div class="section col-1">
 		<h3>Collaborators</h3>
-		<div class="clear">
-			<br>
-		</div>
 	</div>
 
-	<div class="section col-2-3">
-		<p><strong>{{ page.organization_name }}</strong></p>
+	<div class="section col-2-3 content-chunk">
+		<p><strong class="name">{{ page.organization_name }}</strong>
 			<br>
-			<p>
-				{{ page.organization_bio_html | newline_to_br }}
+				{{ page.organization_bio_html}}
 			</p>
 			<br />
 				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
@@ -78,46 +63,33 @@ layout: greyPage
 	
 		{% if page.artist_two == true %}
 		
-		<div class="section col-4-5">
-		<p><strong>{{ page.artist_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_bio_html | newline_to_br }}
+		<div class="section col-4-5 content-chunk">
+		<p><strong class="name">{{ page.artist_name }}</strong>
+				{{ page.artist_bio_html}}
 			</p>
 			<br />
-			<p><strong>{{ page.artist_two_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_two_bio_html | newline_to_br }}
-
+			<p><strong class="name">{{ page.artist_two_name }}</strong>
+				{{ page.artist_two_bio_html}}
+						<br />
 			</p>
-			<br />
-			<!-- </div> -->
 			<div class="section artist-two">
 			<a  href="{{ page.artist_url }}"><img class="two-thirds" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
 			</div>
 			<div class="section artist-two">
 			<a  href="{{ page.artist_two_url }}"><img class="two-thirds" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
 			</div>
-			</div>
+		</div>
 		
 		
 		{% else %}
 
-		<div class="section col-4-5">
-		<p><strong>{{ page.artist_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_bio_html | newline_to_br }}
+		<div class="section col-4-5 content-chunk">
+		<p><strong class="name">{{ page.artist_name }}</strong>
+				{{ page.artist_bio_html}}
 			</p>
-		<br />
-		<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
+		<a  href="{{ page.artist_url }}"><img class="third artist-two" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
 		</div>
 		{% endif %}
-	
-	
-
-	{% include single-break.html %}
 
 </div>
 						

@@ -10,9 +10,9 @@ left_p_html: >-
   <p>&nbsp;</p><p>Although research shows that arts programming narrows the
   achievement gap between youth of high versus low socioeconomic status, arts
   education in New York City public schools remains woefully
-  underfunded.</p><p>&nbsp;</p><p>&nbsp;</p>
+  underfunded.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>Worse yet, students attending schools in economically
+  <p>Worse yet, students attending schools in economically
   under-served communities have disproportionately poorer access to arts
   resources than those in more affluent areas.</p><p>&nbsp;</p><p>Youth who
   participate in arts programming do better across the board academically, with
