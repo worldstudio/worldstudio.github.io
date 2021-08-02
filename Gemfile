@@ -1,16 +1,9 @@
 source 'https://rubygems.org'
 
-require 'json'
-require 'open-uri'
-versions = JSON.parse(open('https://pages.github.com/versions.json').read)
-
-gem 'jekyll'
-
-gem 'github-pages', versions['github-pages']
-
+gem "github-pages", group: :jekyll_plugins
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-	gem 'jekyll-feed'
+  gem "jekyll-feed", "~> 0.12"
 end
 
-
-
+gem "webrick", "~> 1.7"
