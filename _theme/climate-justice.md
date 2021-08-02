@@ -2,12 +2,12 @@
 image_path: /img/climate-justice.jpg
 issue: Climate Justice
 quote: >-
-        It’s warming.<br />
-        It’s us.<br /> 
-        We’re sure.<br />
-        It’s bad.<br />
-        It’s urgent.<br />
-        We can fix it.<br />
+  It’s warming.<br />
+  It’s us.<br /> 
+  We’re sure.<br />
+  It’s bad.<br />
+  It’s urgent.<br />
+  We can fix it.<br />
 main_entry: >-
   Climate change isn’t a distant, abstract problem – it’s here now. People all
   over the world are feeling the impacts, from island nations going underwater
@@ -15,23 +15,23 @@ main_entry: >-
   always had natural cycles of warming and cooling, but never like what we’re
   seeing now.
 left_p_html: >-
-  <p>&nbsp;</p><p>As of this writing, the top five hottest years on record are
+  <p>As of this writing, the top five hottest years on record are
   2016, 2015, 2014, 2013 and 2010. 2017 so far is the second&ndash;hottest year
   on record, after 2016.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>Climate change is not just an environmental issue, or a social justice
+  <p>Climate change is not just an environmental issue, or a social justice
   issue, or an economic issue. It is one of the biggest challenges humanity has
   ever faced, and the consequences impact everything from food shortages to mass
   migration to escalating political discord and conflict. It is essential that
-  we work together to solve the climate crisis.</p><p>&nbsp;</p><p>That means
+  we work together to solve the climate crisis.</p><p>That means
   bringing people together &ndash; not just environmentalists, but business
   owners, faith groups, labor unions, universities and others &ndash; and
   building coalitions strong enough to put pressure on governments, and stand up
   to the fossil fuel industry. We cannot a afford to wait any longer, we need
-  true climate action now.</p><p>&nbsp;</p>
+  true climate action now.</p>
 organization_name: 350
 organization_name_short: 350
-organization_url: 'https://350.org/'
+organization_url: "https://350.org/"
 organization_image: /img/organizations/350.png
 organization_bio_html: >-
   <p>350.org is a global climate organization that uses online campaigns,
@@ -41,7 +41,7 @@ organization_bio_html: >-
   extends to 188 countries.</p>
 artist_name: DJ Spooky
 artist_name_short: DJ Spooky
-artist_url: 'http://djspooky.com/'
+artist_url: "http://djspooky.com/"
 artist_image: /img/artists/dj-spooky.png
 artist_bio_html: >-
   <p>DJ Spooky aka Paul D. Miller, is a composer, multimedia artist, editor and
@@ -70,5 +70,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

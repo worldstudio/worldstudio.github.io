@@ -1,6 +1,6 @@
 ---
 image_path: /img/incarceration.jpg
-issue: Criminal Justice System Reform
+issue: Criminal Justice Reform
 quote: >-
   The U.S. has 5% of the world's population, and 25% of the world's
   incarcerated.
@@ -10,7 +10,7 @@ main_entry: >-
   civil rights issue. In a time of deep ideological divides, the fight for
   justice is more urgent than ever.
 left_p_html: >-
-  <p>&nbsp;</p><p>And it starts in local jails in nearly every community, where
+  <p>And it starts in local jails in nearly every community, where
   millions of men and women &nbsp;&ndash; who are presumed innocent
   &ndash;&nbsp; are locked up over the course of a year. Most are behind bars
   for minor offenses, and held because they are simply too poor to post bail.
@@ -18,15 +18,15 @@ left_p_html: >-
   already marginalized communities &ndash; people who are poor, people of color,
   people with mental illness.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>The need to reform our criminal justice system remains a point of agreement
+  <p>The need to reform our criminal justice system remains a point of agreement
   among public leaders of red and blue states alike, as well as the local
   government actors who are in charge of delivering much needed changes to our
-  nation&rsquo;s justice system.</p><p>&nbsp;</p><p>Mass incarceration and its
+  nation&rsquo;s justice system.</p><p>Mass incarceration and its
   solutions are in our backyards. Together we can build stronger communities
-  and, overall, a safer U.S.</p><p>&nbsp;</p>
+  and, overall, a safer U.S.</p>
 organization_name: Vera Institute of Justice
 organization_name_short: Vera
-organization_url: 'https://www.vera.org/'
+organization_url: "https://www.vera.org/"
 organization_image: /img/organizations/vera.png
 organization_bio_html: >-
   <p>Vera&rsquo;s mission is to urgently build and improve justice systems that
@@ -38,7 +38,7 @@ organization_bio_html: >-
   to create change in the U.S. justice system</p>
 artist_name: Seymour Chwast
 artist_name_short: Seymour
-artist_url: 'http://seymourchwastarchive.com/'
+artist_url: "http://seymourchwastarchive.com/"
 artist_image: /img/artists/seymour.png
 artist_bio_html: >-
   <p>Seymour Chwast is co-founder of Push Pin Studios and has been director of
@@ -65,5 +65,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

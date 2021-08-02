@@ -1,19 +1,19 @@
 ---
 image_path: /img/lgbtq-equity.jpg
-issue: Gender Expression 
+issue: Gender Expression
 quote: Gender-Fluid. Gender-less. Trans-gender. Non-gender.
 main_entry: >-
   Many young people are articulating ever more varied understandings of gender
   in themselves and their peers. They are also encountering a world around them
   that is unprepared, if not downright hostile, in its responses.
 left_p_html: >-
-  <p>&nbsp;</p><p>From their own families to the communities and institutions
+  <p>From their own families to the communities and institutions
   with which they interact, gender non- conforming youth are facing rejection,
   discrimination and bullying at levels well beyond their equals.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>Without a shared understanding of gender and sexual identities,
+  <p>Without a shared understanding of gender and sexual identities,
   interactions can often occur with unanticipated &ndash; and even harmful
-  &ndash; consequences.</p><p>&nbsp;</p><p>Parents play a very powerful role in
+  &ndash; consequences.</p><p>Parents play a very powerful role in
   a gender&ndash; expansive youth&rsquo;s life. Research shows that supportive
   parenting significantly affects children&rsquo;s outlook on life, mental
   health and self&ndash;esteem. Rejecting parenting practices appear to be
@@ -22,7 +22,7 @@ right_p_html: >-
   their gender non-conforming children to be exactly who they are.</p>
 organization_name: Hetrick-Martin Institute
 organization_name_short: HMI
-organization_url: 'https://www.hmi.org/'
+organization_url: "https://www.hmi.org/"
 organization_image: /img/organizations/hmi.png
 organization_bio_html: >-
   <p>Hetrick-Martin Institute is the nation&rsquo;s oldest and largest
@@ -34,7 +34,7 @@ organization_bio_html: >-
   youth.</p>
 artist_name: Lissa Rivera
 artist_name_short: Lissa
-artist_url: 'http://www.lissarivera.com/'
+artist_url: "http://www.lissarivera.com/"
 artist_image: /img/artists/lissa-rivera.png
 artist_bio_html: >-
   <p>Lissa Rivera is a photographer and curator based in Brooklyn, NY whose work
@@ -59,5 +59,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

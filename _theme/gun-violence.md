@@ -7,16 +7,16 @@ main_entry: >-
   more than 84,000 are injured. Over the past 50 years, more than 1.4 million
   Americans have been killed, and 3.5 million have been injured by firearms.
 left_p_html: >-
-  <p>&nbsp;</p><p>Gun violence is the third leading cause of death among
+  <p>Gun violence is the third leading cause of death among
   American youth &ndash; and homicide&ndash;by&ndash;firearm is the leading
   cause of death among black youth ages 15&ndash;24. In New York City,
   under&ndash;served communities of color are disproportionately impacted by the
   flow of illegal guns from states with lax gun laws.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>There are many factors that lead disenfranchised youth to pick up guns: the
+  <p>There are many factors that lead disenfranchised youth to pick up guns: the
   cycle of violence is perpetuated by chronic loss, traumatic stress and grief,
   poverty, inadequate schools and housing, unemployment and
-  incarceration.</p><p>&nbsp;</p><p>Preventative education must go deeper than
+  incarceration.</p><p>Preventative education must go deeper than
   explaining the dangers of gun violence and the potential for injury, death or
   prison. Empowering young people with leadership skills &ndash; including
   conflict resolution, public speaking and advocacy training &ndash; provides a
@@ -24,7 +24,7 @@ right_p_html: >-
   vulnerable neighborhoods.</p>
 organization_name: NYAGV Education Fund
 organization_name_short: NYAGV
-organization_url: 'http://nyagvedfund.org/'
+organization_url: "http://nyagvedfund.org/"
 organization_image: /img/organizations/nyagv.png
 organization_bio_html: >-
   <p>The mission of New Yorkers Against Gun Violence Education Fund (NYAGV Ed
@@ -36,7 +36,7 @@ organization_bio_html: >-
   activists.</p>
 artist_name: Edel Rodriguez
 artist_name_short: Edel
-artist_url: 'http://edelr.com/'
+artist_url: "http://edelr.com/"
 artist_image: /img/artists/edel.png
 artist_bio_html: >-
   <p>Edel Rodriguez is a Cuban American artist whose work has been exhibited
@@ -61,5 +61,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

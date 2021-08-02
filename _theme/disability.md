@@ -7,7 +7,7 @@ main_entry: >-
   Universal Design. The first principle spells out the rules of Equitable Use:
   the design must be useful and marketable to people with diverse abilities.
 left_p_html: >-
-  <p>&nbsp;</p><p>Surprisingly, none of the 7 Principles of Universal Design
+  <p>Surprisingly, none of the 7 Principles of Universal Design
   prioritizes aesthetic or emotional connection, an apparent oversight that may
   have contributed to a lack of visually pleasing assistive devices, and all but
   stigmatized the appearance of the products disabled people need most. Does
@@ -16,7 +16,7 @@ right_p_html: >-
   <p>Products made for disabled people are rarely designed for esthetic
   consideration, and for many disabled consumers disability is all but
   equivalent to a lack of choice. Assistive devices always end up stigmatizing
-  their user.</p><p>&nbsp;</p><p>According to the National Institute of Health,
+  their user.</p><p>According to the National Institute of Health,
   for example, only one-fifth of people who could benefit from hearing aids
   actually use them. Failure to use hearing aids can lead to early-onset
   dementia and even early death, and yet many people reject their use because of
@@ -25,7 +25,7 @@ right_p_html: >-
   &ldquo;disabled&rdquo;?</p>
 organization_name: Inclusive Collective
 organization_name_short: Inclusive Collective
-organization_url: 'https://www.inclusivecollective.org/'
+organization_url: "https://www.inclusivecollective.org/"
 organization_image: /img/organizations/ifdc.png
 organization_bio_html: >-
   <p>The Inclusive Fashion &amp; Design Collective is a
@@ -37,7 +37,7 @@ organization_bio_html: >-
   disabled people.</p>
 artist_name: Ryan Hartley Smith
 artist_name_short: Ryan
-artist_url: 'http://ryhartley.com/'
+artist_url: "http://ryhartley.com/"
 artist_image: /img/artists/ryan-hartley-smith.png
 artist_bio_html: >-
   <p>Ryan Hartley Smith is an illustrator based in New York City. He has
@@ -47,7 +47,7 @@ artist_bio_html: >-
 artist_two: true
 artist_two_name: Jerron Herron
 artist_two_name_short: Jerron
-artist_two_url: 'https://www.instagram.com/jerronmarcel/'
+artist_two_url: "https://www.instagram.com/jerronmarcel/"
 artist_two_image: /img/artists/jerron-herron.png
 artist_two_bio_html: >-
   <p>Jerron is a dancer, writer and administrator for Heidi Latsky Dance. He was featured in Open Studio with Jared Bowen for PBS, and recently in Dancing with Cerebral Palsy by Great Big Story.</p>
@@ -64,5 +64,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

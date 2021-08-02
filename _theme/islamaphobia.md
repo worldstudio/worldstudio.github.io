@@ -9,7 +9,7 @@ main_entry: >-
   hate crimes targeting Muslims surged 584 percent.
 left_p_html:
 right_p_html: >-
-  <p>&nbsp;</p><p>Religious beliefs were not the only trigger of anti&ndash;Muslim bias
+  <p>Religious beliefs were not the only trigger of anti&ndash;Muslim bias
   incidents. The victim&rsquo;s ethnicity or national origin accounted for 35
   percent of the total, and in many cases an individual&rsquo;s name was the
   lone trigger factor. Xenophobic policies and propaganda exert a heavy human
@@ -21,7 +21,7 @@ right_p_html: >-
   reject hate and unburden our nation from continued a affliction.</p>
 organization_name: Council on American-Islamic Relations
 organization_name_short: CAIR-NY
-organization_url: 'https://www.cair.com/'
+organization_url: "https://www.cair.com/"
 organization_image: /img/organizations/cair.png
 organization_bio_html: >-
   <p>CAIR-NY is the New York state chapter of the Council on American-Islamic
@@ -34,7 +34,7 @@ organization_bio_html: >-
   experienced discrimination, harassment or hate crimes.</p>
 artist_name: Morehshin Allahyari
 artist_name_short: Morehshin
-artist_url: 'http://www.morehshin.com/'
+artist_url: "http://www.morehshin.com/"
 artist_image: /img/artists/morehshin.png
 artist_bio_html: >-
   <p>Morehshin Allahyari is an Iranian artist, activist, and educator. Her
@@ -59,5 +59,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-
