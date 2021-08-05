@@ -1,45 +1,53 @@
 ---
 layout: greyPage
+tag: home
 ---
-<div class="container"> 
+<div class="container">
 	<div class="section col-1-5 intro">
-	<span class="white">Leveraging the power of <br> <span class="red">art</span> and <span class="red">design</span> to advance <br> the front lines of <span class="red">social justice</span></span>
-</div>
+		<span class="white">Leveraging the power of <span class="custom-break"></span> <span class="red">art</span> and
+			<span class="red">design</span> to advance <span class="custom-break"></span> the front lines of <span
+				class="red">social justice</span></span>
+	</div>
 </div>
 <div class="container">
-{% include rule-break-header.html %}
+	{% include rule-break-header.html %}
 </div>
 
 
 <div class="container" id="indexAll">
-{% for theme_item in site.theme %}
+	{% for theme_item in site.theme %}
 
 	{% assign col_item = forloop.index | modulo: 5 %}
 
 	{% if col_item == 0 %}
-		{% assign col = 5 %}
+	{% assign col = 5 %}
 	{% else %}
-		{% assign col = col_item %}
+	{% assign col = col_item %}
 	{% endif %}
 
-		<div class="section col-{{ col }} themeMain" class = "indexThemes">
+	<div class="section col-{{ col }} themeMain" class="indexThemes">
 
-		 	<a href="{{ theme_item.url }}.html"><div class="section themeContent">
-				
-				<h3 class ="themeTitle">{{ theme_item.issue }}</h3>
+		<a href="{{ theme_item.url }}.html">
+			<div class="section themeContent">
+
+				<h3 class="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
 				{% if theme_item.artist_two == true %}
-				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }} + <br>
-				{{ theme_item.artist_two_name }}</strong> <br><br></p>
+				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{
+						theme_item.artist_name }} + <br>
+						{{ theme_item.artist_two_name }}</strong> <br><br></p>
 				{% else %}
-				<p class ="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{ theme_item.artist_name }}</strong> <br><br></p>
+				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{
+						theme_item.artist_name }}</strong> <br /><br></p>
 				{% endif %}
 				<div class="clear"></div>
-				
-			</div></a>
-		 	<a href="{{ theme_item.url }}.html" class="image"><img src="{{ theme_item.image_path }}" alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"></a>
-		</div>
 
-{% endfor %}
+			</div>
+		</a>
+		<a href="{{ theme_item.url }}.html" class="image"><img src="{{ theme_item.image_path }}"
+				alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"></a>
+	</div>
+
+	{% endfor %}
 </div>
-</div> 
+</div>

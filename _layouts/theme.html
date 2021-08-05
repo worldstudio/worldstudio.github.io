@@ -1,29 +1,30 @@
 ---
 layout: greyPage
+tag: project
 ---
 
 <div class="container main individual">
 
-	<div class="section col-1">
+	<div class="section col-1 theme-collaborators">
 		<h3 class="red">{{ page.issue }}</h3>
 
 		{% if page.artist_two == true %}
-		<p><strong>{{ page.organization_name }} + <br>
-				{{ page.artist_name }} + <br>
+		<p><strong>{{ page.organization_name }} + <br />
+				{{ page.artist_name }} + <br />
 				{{ page.artist_two_name }} </strong></p>
 
 		{% else %}
-		<p><strong>{{ page.organization_name }} + <br>
+		<p><strong>{{ page.organization_name }} + <br />
 				{{ page.artist_name }}</strong></p>
 
 		{% endif %}
 
 	</div>
-	<div class="section col-2-3">
+	<div class="section col-2-3 theme-img">
 		<img class="feature" alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}">
 	</div>
 
-	<div class="section col-4-5">
+	<div class="section col-4-5 theme-quote">
 
 		<h1 class="red main-quote">{{ page.quote}}</h1>
 
