@@ -367,7 +367,7 @@ h3 {
 }
 
 #topNavH {
-  font-size: 1.8125vw;
+  font-size: 1.5vw;
   line-height: 1.2;
 }
 
@@ -794,6 +794,7 @@ a.footerLinks {
   }
   #topNavH {
     grid-column: 4/9;
+    font-size: 1.8125vw;
   }
   /* #topNavH h3 {
     padding-top: 0.5rem;

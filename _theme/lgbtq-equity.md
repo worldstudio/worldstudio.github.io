@@ -1,5 +1,6 @@
 ---
 image_path: /img/lgbtq-equity.jpg
+tag: project
 issue: Gender Expression
 quote: >-
   Gender-Fluid.<br /> 

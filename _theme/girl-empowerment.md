@@ -1,5 +1,6 @@
 ---
 image_path: /img/womens-leadership.jpg
+tag: project
 issue: Girls Empowerment
 quote: A tough place for a girl to grow up.
 main_entry: >-

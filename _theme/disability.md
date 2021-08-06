@@ -1,5 +1,6 @@
 ---
 image_path: /img/disability.jpg
+tag: project
 issue: Disability Rights
 quote: Does disability need a re-design?
 main_entry: >-

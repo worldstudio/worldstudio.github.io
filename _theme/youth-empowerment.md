@@ -1,5 +1,6 @@
 ---
 image_path: /img/youth-empowerment.jpg
+tag: project
 issue: Youth Empowerment
 quote: Only 1% of all technology company founders are Black. 87% are White.
 main_entry: >-

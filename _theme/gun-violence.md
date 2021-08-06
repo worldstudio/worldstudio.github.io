@@ -1,5 +1,6 @@
 ---
 image_path: /img/gun-violence.jpg
+tag: project
 issue: Gun Violence
 quote: More Americans have died from gun violence than in all this country’s wars.
 main_entry: >-
