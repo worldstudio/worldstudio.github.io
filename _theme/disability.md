@@ -24,8 +24,8 @@ right_p_html: >-
   the social stigma associated with them. Could this stigma actually be deadly?
   And can design restore dignity to those who are branded
   &ldquo;disabled&rdquo;?</p>
-organization_name: Inclusive Collective
-organization_name_short: Inclusive Collective
+organization_name: Inclusive Fashion &amp; Design Collective
+organization_name_short: IFDC
 organization_url: "https://www.inclusivecollective.org/"
 organization_image: /img/organizations/ifdc.png
 organization_bio_html: >-
