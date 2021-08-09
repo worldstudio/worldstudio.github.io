@@ -1,6 +1,6 @@
 ---
 image_path: /img/access-to-arts-education.jpg
-tag: project
+tag: main project
 issue: Access to Arts Education
 quote: Arts education empowers young lives.
 main_entry: >-

@@ -1,6 +1,6 @@
 ---
 image_path: /img/social-justice.jpg
-tag: project
+tag: main project
 issue: Imperialism
 quote: Imagine a world without imperialism.
 main_entry: >-

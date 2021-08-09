@@ -1,6 +1,6 @@
 ---
 image_path: /img/incarceration.jpg
-tag: project
+tag: main project
 issue: Criminal Justice Reform
 quote: >-
   The U.S. has 5% of the world's population, and 25% of the world's

@@ -1,6 +1,6 @@
 ---
 image_path: /img/islamophobia.jpg
-tag: project
+tag: main project
 issue: Islamophobia
 quote: Ethnic bias and stereotyping erode the stability of American families.
 main_entry: >-

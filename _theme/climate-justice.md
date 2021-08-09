@@ -1,6 +1,6 @@
 ---
 image_path: /img/climate-justice.jpg
-tag: project
+tag: main project
 issue: Climate Justice
 quote: >-
   It’s warming.<br />
