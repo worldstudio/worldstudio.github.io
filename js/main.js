@@ -11,15 +11,20 @@ barba.init({
     {
       name: "fade",
       beforeEnter(data) {
-        data.next;
+        // console.log(data);
+        if (data.current.namespace !== data.next.namespace) {
+          bodyTag.classList = data.next.namespace;
+        }
+        if (
+          data.trigger.classList &&
+          data.trigger.classList.contains("nav-link")
+        ) {
+          toggleNav();
+        }
         window.scrollTo({
           top: 0,
           behavior: "smooth",
         });
-      },
-      enter(data) {
-        console.log(data.current);
-        console.log(data.next);
       },
     },
   ],

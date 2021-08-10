@@ -23,19 +23,18 @@
 					<div class="clear">
 						<ul class="themes">
 							{% for theme_item in site.theme %}
-							<li class="menu-link"><a href="{{ theme_item.url }}.html">
+							<li class="menu-link"><a href="{{ theme_item.url }}.html" class="nav-link">
 									<h3>{{ theme_item.issue }}</h3>
 								</a></li>
 							{% endfor %}
 						</ul>
 
 
-
 						<ul class="other">
-							<li class="menu-link"><a href="about.html">
+							<li class="menu-link"><a href="about.html" class="nav-link">
 									<h3>About AMPL!FY</h3>
 								</a></li>
-							<li class="menu-link"><a href="/">
+							<li class="menu-link"><a href="/" class="nav-link">
 									<h3>Home</h3>
 								</a></li>
 						</ul>
