@@ -4,9 +4,13 @@ tag: main home
 ---
 <div class="container">
 	<div class="section col-1-5 intro">
-		<span class="white">Leveraging the power of <span class="custom-break"></span> <span class="red">art</span> and
-			<span class="red">design</span> to advance <span class="custom-break"></span> the front lines of <span
-				class="red">social justice</span></span>
+		<span class="white">Leveraging the power of <br />
+			<span class="highlight word-container"> <span class="red">art</span>
+			</span> and
+			<span class="highlight word-container"><span class="red">design</span></span> to advance <br /> the front
+			lines of <span class="highlight word-container"><span class="red">social
+					justice</span></span>
+		</span>
 	</div>
 </div>
 <div class="container">
@@ -33,19 +37,20 @@ tag: main home
 				<h3 class="themeTitle">{{ theme_item.issue }}</h3>
 				<div class="clear"></div>
 				{% if theme_item.artist_two == true %}
-				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{
-						theme_item.artist_name }} + <br>
-						{{ theme_item.artist_two_name }}</strong> <br><br></p>
+				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br /> {{
+						theme_item.artist_name }} + <br />
+						{{ theme_item.artist_two_name }}</strong> <br /><br /></p>
 				{% else %}
-				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br> {{
-						theme_item.artist_name }}</strong> <br /><br></p>
+				<p class="themeCollaborators"> <strong> {{ theme_item.organization_name }} + <br /> {{
+						theme_item.artist_name }}</strong> <br /><br /></p>
 				{% endif %}
 				<div class="clear"></div>
 
 			</div>
 		</a>
 		<a href="{{ theme_item.url }}.html" class="image"><img src="{{ theme_item.image_path }}"
-				alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"></a>
+				alt="{{ theme_item.issue }} : {{ theme_item.artist_name }}  and {{ theme_item.organization_name }}"
+				width="500" height="833" onload="this.classList.add('loaded')" class="placeholder"></a>
 	</div>
 
 	{% endfor %}

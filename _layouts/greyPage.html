@@ -3,7 +3,9 @@ layout: menuFooter
 ---
 
 <body class="{{page.tag}}">
-	{% include menu.html %}
+	<div id="loadOverlay"
+		style="background-color:#303030; position:absolute; top:0px; left:0px; width:100%; height:500%; z-index:198;">
+	</div>
 
 
 	{{ content }}
