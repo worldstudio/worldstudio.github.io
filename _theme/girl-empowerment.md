@@ -1,5 +1,6 @@
 ---
-image_path: /img/womens-leadership.jpg
+image_path: /img/female-leadership.jpg
+tag: main project
 issue: Girls Empowerment
 quote: A tough place for a girl to grow up.
 main_entry: >-
@@ -7,21 +8,22 @@ main_entry: >-
   70’s throughout the nation hit the Lower East Side community in Manhattan very
   hard. The neighborhood experienced unprecedented real estate abandonment and
   disinvestment as riots flared, buildings burned and drugs were rampant.
-left_p_html:
-right_p_html: >-
-  <p>&nbsp;</p><p>Today, the Lower East Side remains one of the most ethnically and
+left_p_html: >-
+  <p>Today, the Lower East Side remains one of the most ethnically and
   economically diverse neighborhoods in New York, with a substantial
   foreign-born and working-poor population. Poverty rates in the Lower East Side
   remain amongst the highest in the city, in spite of a recent influx of
   affluent residents. In fact, the Lower East Side has the third highest number
   of young people living in poverty in Manhattan, approximately
-  39.6%.</p><p>&nbsp;</p><p>Moreover, 47.3% of Lower East Side residents are on
+  39.6%.</p>
+right_p_html: >-
+  <p>Moreover, 47.3% of Lower East Side residents are on
   some form of income support, and around 30% live in households with incomes
   below $19,000. The census tracts along the East River indicate that, in 2010,
   over half of families with children had incomes below the poverty line.</p>
 organization_name: The Lower East Side Girls Club
 organization_name_short: LESGC
-organization_url: 'https://www.girlsclub.org/'
+organization_url: "https://www.girlsclub.org/"
 organization_image: /img/organizations/lesgc.png
 organization_bio_html: >-
   <p>In 1996 a diverse group of women consisting of workers, artists, educators
@@ -34,7 +36,7 @@ organization_bio_html: >-
   entrepreneurial and environmental leaders.</p>
 artist_name: OCD | The Original Champions of Design
 artist_name_short: OCD
-artist_url: 'http://originalchampionsofdesign.com/'
+artist_url: "http://originalchampionsofdesign.com/"
 artist_image: /img/artists/ocd.png
 artist_bio_html: >-
   <p>OCD | The Original Champions of Design is an independent branding and
@@ -59,5 +61,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

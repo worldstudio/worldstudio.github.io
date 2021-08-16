@@ -1,14 +1,14 @@
 ---
 image_path: /img/social-justice.jpg
+tag: main project
 issue: Imperialism
 quote: Imagine a world without imperialism.
 main_entry: >-
   If you can conceive of a world without America – without everything America
   stands for and everything it does in the world – then you’ve already taken
   great strides and begun to get at least a glimpse of a whole new world.
-left_p_html: <p>&nbsp; &nbsp;</p><p>&nbsp;</p>
-right_p_html: >-
-  <p>&nbsp;</p><p>If you can envision a world without any imperialism, exploitation,
+left_p_html: >-
+  <p>If you can envision a world without any imperialism, exploitation,
   oppression &ndash; and the whole philosophy that rationalizes it &ndash; a
   world without division into classes or even different nations, and all the
   narrow&ndash; minded, selfish, outmoded ideas that uphold this; if you can
@@ -16,11 +16,12 @@ right_p_html: >-
   And once you have raised your sights to all this, how could you not feel
   compelled to take an active part in the world historic struggle to realize it;
   why would you want to lower your sights to anything
-  less?</p><p>&nbsp;</p><p><em>BAsics from the Talks and Writings of Bob
+  less?</p><p><em>Basics from the Talks and Writings of Bob
   Avakian; quote 1:31</em></p>
+right_p_html:
 organization_name: Revolution Books
 organization_name_short: Revolution Books
-organization_url: 'http://www.revolutionbooksnyc.org/'
+organization_url: "http://www.revolutionbooksnyc.org/"
 artist_photo_url: /img/artists/dread-scott.jpg
 organization_image: /img/organizations/revolution-books.png
 organization_bio_html: >-
@@ -33,7 +34,7 @@ organization_bio_html: >-
   revolution.</p>
 artist_name: Dread Scott
 artist_name_short: Dread Scott
-artist_url: 'http://www.dreadscott.net/'
+artist_url: "http://www.dreadscott.net/"
 artist_image: /img/artists/dread-scott.png
 artist_bio_html: >-
   <p>Dread Scott makes revolutionary art to propel history forward. He first
@@ -57,5 +58,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-

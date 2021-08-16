@@ -1,142 +1,121 @@
 ---
 layout: greyPage
+tag: main project
 ---
 
 <div class="container main individual">
 
-	<div class="section col-1">
-		<h3 class ="red">{{ page.issue }}</h3> 
-		
-		<div class="clear"><br></div>
+	<div class="section col-1 theme-collaborators">
+		<h3 class="red">{{ page.issue }}</h3>
 
 		{% if page.artist_two == true %}
-		<p><strong>{{ page.organization_name }} + <br>
-		{{ page.artist_name }} + <br>
-		{{ page.artist_two_name }} </strong></p> 
+		<p><strong>{{ page.organization_name }} + <br />
+				{{ page.artist_name }} + <br />
+				{{ page.artist_two_name }} </strong></p>
 
 		{% else %}
-		<p><strong>{{ page.organization_name }} + <br>
-		{{ page.artist_name }}</strong></p> 
-		
+		<p><strong>{{ page.organization_name }} + <br />
+				{{ page.artist_name }}</strong></p>
+
 		{% endif %}
-		<div class="clear"><br></div>
 
 	</div>
-	<div class="section col-2-3">
-		<img class="feature" alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}">
+	<div class="section col-2-3 theme-img">
+		<img class="feature" alt="{{ page.artist_name }} and {{ page.organization_name }}" src="{{ page.image_path }}"
+			width="500" height="833">
 	</div>
-	
-	<div class="section col-4-5">
-	
-		<h1>{{ page.quote | newline_to_br }}</h1>
-		
-		<div class="clear">
-			<br>
-		</div>
 
-		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " "  | join: "%20"}}+%23{{ page.issue |  remove: " " | remove: "’"  }}&via=amplify_justice"><button>Tweet this quote</button></a>
-		
-		<!-- {{ page.quote | replace: "%", "%25" | replace: ",", "%2C" | replace: "’", "%E2%80%99"| replace: "'", "%E2%80%99" | split: " "  | join: "%20"}} //second hashtag: +%23SocialJustice -->
-		
+	<div class="section col-4-5 theme-quote">
+
+		<h1 class="red main-quote">{{ page.quote}}</h1>
+
+		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " " | join: "%20" }}+%23{{ page.issue |
+			remove: " " | remove: "’" }}&via=amplify_justice"><button>Tweet this
+				quote</button></a>
+
 	</div>
-	
-		{% include rule-break-copy.html %}
-		
-	<div class="section col-2-3" id = "individualSideOne">
-		<br>
+	{% include rule-break.html %}
+
+	<div class="section col-2-3 content-text" id="individualSideOne">
 		<h3>{{ page.main_entry }}</h3>
-	
-		<p>
-			{{ page.left_p_html | newline_to_br }}
-		</p>
+		{{ page.left_p_html}}
 	</div>
-	<div class="section col-4-5">
-			<p>
-				{{ page.right_p_html | newline_to_br }}
-			</p>
+	<div class="section col-4-5 content-text">
+		{{ page.right_p_html}}
 	</div>
-	
-	{% include rule-break-copy-2.html %}
+
+	{% include rule-break.html %}
 
 	<div class="section col-1">
 		<h3>Collaborators</h3>
-		<div class="clear">
-			<br>
-		</div>
 	</div>
 
-	<div class="section col-2-3">
-		<p><strong>{{ page.organization_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.organization_bio_html | newline_to_br }}
-			</p>
-			<br />
-				<a href="{{ page.organization_url }}"><img class="third" alt="{{ page.organization_name }} logo" src="{{ page.organization_image }}"></a>
-			<div class="clear">
-				<br>
-				<a href="{{ page.organization_url }}"><button>More about {{ page.organization_name_short }}</button></a>
-			</div>	
-	</div>
-
-	
-		{% if page.artist_two == true %}
-		
-		<div class="section col-4-5">
-		<p><strong>{{ page.artist_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_bio_html | newline_to_br }}
-			</p>
-			<br />
-			<p><strong>{{ page.artist_two_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_two_bio_html | newline_to_br }}
-
-			</p>
-			<br />
-			<!-- </div> -->
-			<div class="section artist-two">
-			<a  href="{{ page.artist_url }}"><img class="two-thirds" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-			<div class="clear">
-				<br>
-				<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-				<br>
-				<br>
+	<div class="section col-2-3 content-chunk">
+		<a href="{{ page.organization_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.organization_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
 			</div>
-			</div>
-			<div class="section artist-two">
-			<a  href="{{ page.artist_two_url }}"><img class="two-thirds" alt="{{ page.artist_two_name }} photo" src="{{ page.artist_two_image }}"></a> 
-			<div class="clear">
-			<br>
-				<a href="{{ page.artist_two_url }}"><button>More about {{ page.artist_two_name_short }}</button></a>
-			</div>
-			</div>
-			</div>
-		
-		
-		{% else %}
-
-		<div class="section col-4-5">
-		<p><strong>{{ page.artist_name }}</strong></p>
-			<br>
-			<p>
-				{{ page.artist_bio_html | newline_to_br }}
-			</p>
+		</a>
+		<p>
+			{{ page.organization_bio_html}}
+		</p>
 		<br />
-		<a  href="{{ page.artist_url }}"><img class="third" alt="{{ page.artist_name }} photo" src="{{ page.artist_image }}"></a>
-		<div class="clear">
-			<br>
-			<a href="{{ page.artist_url }}"><button>More about {{ page.artist_name_short }}</button></a>
-		</div>
-		</div>
-		{% endif %}
-	
-	
+		<div class="logos img-feature-container">
+			<a href="{{ page.organization_url }}"><img alt="{{ page.organization_name }} logo"
+					src="{{ page.organization_image }}"></a>
 
-	{% include single-break.html %}
+		</div>
+	</div>
+
+
+	{% if page.artist_two == true %}
+
+	<div class="section col-4-5 content-chunk">
+		<a href="{{ page.artist_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
+			{{ page.artist_bio_html}}
+		</p>
+		<br />
+
+		<a href="{{ page.artist_two_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_two_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
+			{{ page.artist_two_bio_html}}
+			<br />
+		</p>
+		<div class="section artist-two">
+			<a href="{{ page.artist_url }}"><img class="two-thirds" alt="{{ page.artist_name }} photo"
+					src="{{ page.artist_image }}"></a>
+		</div>
+		<div class="section artist-two">
+			<a href="{{ page.artist_two_url }}"><img class="two-thirds" alt="{{ page.artist_two_name }} photo"
+					src="{{ page.artist_two_image }}"></a>
+		</div>
+	</div>
+
+
+	{% else %}
+
+	<div class="section col-4-5 content-chunk">
+		<a href="{{ page.artist_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
+			{{ page.artist_bio_html}}
+			<br />
+		</p>
+		<a href="{{ page.artist_url }}"><img class="third artist-two" alt="{{ page.artist_name }} photo"
+				src="{{ page.artist_image }}"></a>
+	</div>
+	{% endif %}
 
 </div>
-						
-
