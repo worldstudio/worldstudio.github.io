@@ -1,5 +1,6 @@
 ---
 image_path:
+tag:
 issue:
 quote:
 main_entry:

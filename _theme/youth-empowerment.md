@@ -1,5 +1,6 @@
 ---
 image_path: /img/youth-empowerment.jpg
+tag: main project
 issue: Youth Empowerment
 quote: Only 1% of all technology company founders are Black. 87% are White.
 main_entry: >-
@@ -7,25 +8,24 @@ main_entry: >-
   country are considerably higher than the national average. For millions of
   young people, the cycle of poverty remains extremely hard to escape.
 left_p_html: >-
-  <p>&nbsp;</p><p>Access to STEAM professions &ndash; Science, Technology,
+  <p>Access to STEAM professions &ndash; Science, Technology,
   Engineering, Arts and Math &ndash; for disconnected youth (defined as
   14&ndash;24 years olds who are not in school and not working) is virtually
   non&ndash;existent. In the United States an estimated 3 million youths aged
-  16&ndash;24 are disconnected. The majority are between</p>
+  16&ndash;24 are disconnected. The majority are between 20 and 24 years old, which suggests the problem intensifies after high school graduation. They are disproportionately people of
+  color.</p>
 right_p_html: >-
-  <p>&nbsp;</p><p>20 and 24 years old, which suggests the problem intensifies after high
-  school graduation. They are disproportionately people of
-  color.</p><p>&nbsp;</p><p>Rates of disconnection vary widely by metropolitan
+  <p>Rates of disconnection vary widely by metropolitan
   area, and in some places young blacks and Latinos are up to 3&ndash;6 times
   more likely to be disconnected than young whites. Among the 10 largest
   metropolitan areas, whites have employment rates above the regional average,
   while blacks have lower than average employment
-  rates.</p><p>&nbsp;</p><p>Disconnected youth are at increased risk for a host
+  rates.</p><p>Disconnected youth are at increased risk for a host
   of negative outcomes, including prolonged periods of unemployment, substance
   abuse and incarceration.</p>
 organization_name: Made in Brownsville
 organization_name_short: MiB
-organization_url: 'http://madeinbrownsville.org'
+organization_url: "http://madeinbrownsville.org"
 organization_image: /img/organizations/mib.png
 organization_bio_html: >-
   <p>Made in Brownsville is a Brooklyn-based creative agency that supports
@@ -37,7 +37,7 @@ organization_bio_html: >-
   harness the keys to successful careers.</p>
 artist_name: Gail Anderson and Joe Newton
 artist_name_short: Gail and Joe
-artist_url: 'http://andersonnewtondesign.com'
+artist_url: "http://andersonnewtondesign.com"
 artist_image: /img/artists/gail-anderson-joe-newton.jpg
 artist_bio_html: >-
   <p>Gail Anderson and Joe Newton are AND&mdash;Anderson Newton Design, a
@@ -61,5 +61,3 @@ _comments:
   left_p_html: Left-sided copy
   right_p_html: Right-sided copy
 ---
-
-
