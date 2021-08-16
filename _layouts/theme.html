@@ -29,8 +29,8 @@ tag: main project
 
 		<h1 class="red main-quote">{{ page.quote}}</h1>
 
-		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: " %", "%25" | split: " " | join: "%20"
-			}}+%23{{ page.issue | remove: " " | remove: "’" }}&via=amplify_justice"><button>Tweet this
+		<a href="https://twitter.com/intent/tweet?text={{ page.quote | replace: "%", "%25" | split: " " | join: "%20" }}+%23{{ page.issue |
+			remove: " " | remove: "’" }}&via=amplify_justice"><button>Tweet this
 				quote</button></a>
 
 	</div>
@@ -38,15 +38,10 @@ tag: main project
 
 	<div class="section col-2-3 content-text" id="individualSideOne">
 		<h3>{{ page.main_entry }}</h3>
-
-		<!-- <p> -->
 		{{ page.left_p_html}}
-		<!-- </p> -->
 	</div>
 	<div class="section col-4-5 content-text">
-		<!-- <p> -->
 		{{ page.right_p_html}}
-		<!-- </p> -->
 	</div>
 
 	{% include rule-break.html %}
@@ -56,7 +51,11 @@ tag: main project
 	</div>
 
 	<div class="section col-2-3 content-chunk">
-		<p><strong class="name">{{ page.organization_name }}</strong> </p>
+		<a href="{{ page.organization_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.organization_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
 		<p>
 			{{ page.organization_bio_html}}
 		</p>
@@ -72,11 +71,22 @@ tag: main project
 	{% if page.artist_two == true %}
 
 	<div class="section col-4-5 content-chunk">
-		<p><strong class="name">{{ page.artist_name }}</strong>
+		<a href="{{ page.artist_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
 			{{ page.artist_bio_html}}
 		</p>
 		<br />
-		<p><strong class="name">{{ page.artist_two_name }}</strong>
+
+		<a href="{{ page.artist_two_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_two_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
 			{{ page.artist_two_bio_html}}
 			<br />
 		</p>
@@ -94,7 +104,12 @@ tag: main project
 	{% else %}
 
 	<div class="section col-4-5 content-chunk">
-		<p><strong class="name">{{ page.artist_name }}</strong>
+		<a href="{{ page.artist_url }}" class="link-arrow">
+			<div class="name-container name"><strong> {{ page.artist_name }}</strong>
+				<div class="arrow-container">{% include arrow.html %}</div>
+			</div>
+		</a>
+		<p>
 			{{ page.artist_bio_html}}
 			<br />
 		</p>

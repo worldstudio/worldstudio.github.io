@@ -9,11 +9,12 @@ main_entry: >-
   2016, anti-Muslim bias incidents jumped 65 percent. In that two-year period,
   hate crimes targeting Muslims surged 584 percent.
 left_p_html:
-right_p_html: >-
   <p>Religious beliefs were not the only trigger of anti&ndash;Muslim bias
   incidents. The victim&rsquo;s ethnicity or national origin accounted for 35
   percent of the total, and in many cases an individual&rsquo;s name was the
-  lone trigger factor. Xenophobic policies and propaganda exert a heavy human
+  lone trigger factor.</p>
+right_p_html: >-
+  <p> Xenophobic policies and propaganda exert a heavy human
   toll; increasingly, families are torn apart by regressive immigration policies
   based on ethnic profiling. In American schools, reports of violence and
   bullying of Muslim students continue to rise and, alarmingly, some of the

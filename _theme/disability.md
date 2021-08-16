@@ -26,7 +26,7 @@ right_p_html: >-
   &ldquo;disabled&rdquo;?</p>
 organization_name: Inclusive Fashion &amp; Design Collective
 organization_name_short: IFDC
-organization_url: "https://www.inclusivecollective.org/"
+organization_url: "https://www.disabledlist.org/"
 organization_image: /img/organizations/ifdc.png
 organization_bio_html: >-
   <p>The Inclusive Fashion &amp; Design Collective is a

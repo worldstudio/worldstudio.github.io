@@ -7,8 +7,7 @@ main_entry: >-
   If you can conceive of a world without America – without everything America
   stands for and everything it does in the world – then you’ve already taken
   great strides and begun to get at least a glimpse of a whole new world.
-left_p_html:
-right_p_html: >-
+left_p_html: >-
   <p>If you can envision a world without any imperialism, exploitation,
   oppression &ndash; and the whole philosophy that rationalizes it &ndash; a
   world without division into classes or even different nations, and all the
@@ -19,6 +18,7 @@ right_p_html: >-
   why would you want to lower your sights to anything
   less?</p><p><em>Basics from the Talks and Writings of Bob
   Avakian; quote 1:31</em></p>
+right_p_html:
 organization_name: Revolution Books
 organization_name_short: Revolution Books
 organization_url: "http://www.revolutionbooksnyc.org/"

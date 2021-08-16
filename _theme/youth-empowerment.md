@@ -12,11 +12,10 @@ left_p_html: >-
   Engineering, Arts and Math &ndash; for disconnected youth (defined as
   14&ndash;24 years olds who are not in school and not working) is virtually
   non&ndash;existent. In the United States an estimated 3 million youths aged
-  16&ndash;24 are disconnected. The majority are between</p>
+  16&ndash;24 are disconnected. The majority are between 20 and 24 years old, which suggests the problem intensifies after high school graduation. They are disproportionately people of
+  color.</p>
 right_p_html: >-
-  <p>20 and 24 years old, which suggests the problem intensifies after high
-  school graduation. They are disproportionately people of
-  color.</p><p>Rates of disconnection vary widely by metropolitan
+  <p>Rates of disconnection vary widely by metropolitan
   area, and in some places young blacks and Latinos are up to 3&ndash;6 times
   more likely to be disconnected than young whites. Among the 10 largest
   metropolitan areas, whites have employment rates above the regional average,
