@@ -159,7 +159,7 @@ footer {
   bottom: 0;
   right: 0;
   background: #ffffff;
-  transition: 0.25s linear;
+  transition: 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
 .menu-link a::before {
@@ -170,7 +170,7 @@ footer {
   bottom: 0;
   left: 0;
   background: #ffffff;
-  transition: 0.25s linear;
+  transition: 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
 .overlay {
@@ -197,7 +197,7 @@ footer {
 
 img.placeholder {
   opacity: 0;
-  transition: opacity 0.25s linear;
+  transition: opacity 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
 img.placeholder.loaded {
@@ -287,7 +287,7 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   right: 0;
-  transition: width 0.5s linear 0.25s;
+  transition: width 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s;
 }
 
 .caption-line.active::after {
@@ -302,7 +302,7 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: width 0.5s linear 0.25s;
+  transition: width 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s;
 }
 
 .caption-line.active::before {
@@ -346,7 +346,7 @@ a.image {
 .link-arrow .arrow-icon .arrow-base {
   stroke-dasharray: 10;
   stroke-dashoffset: 0;
-  transition: all 0.125s linear;
+  transition: all 0.125s cubic-bezier(.79,.65,.64,.96);
 }
 
 a.link-arrow:hover .arrow-icon .arrow-base {
@@ -451,11 +451,11 @@ h1 {
 }
 
 .line-container.active .line {
-  animation: rise 0.5s linear forwards 0.1s;
+  animation: rise 0.5s cubic-bezier(.79,.65,.64,.96) forwards 0.1s;
 }
 
 .line-container.inactive .line {
-  animation: fall 0.25s linear forwards;
+  animation: fall 0.25s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 h1 {
@@ -547,7 +547,7 @@ button::after {
   left: 0;
   z-index: -1;
   background-color: #ffffff;
-  transition: 0.25s linear;
+  transition: 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
 p,
@@ -620,27 +620,27 @@ img.social {
 }
 
 .burger-line.top.active {
-  animation: burgerTop 0.5s ease-in-out forwards;
+  animation: burgerTop 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line.bottom.active {
-  animation: burgerBottom 0.5s ease-in-out forwards;
+  animation: burgerBottom 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line.center.active {
-  animation: burgerCenter 0.5s ease-in-out forwards;
+  animation: burgerCenter 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line.top.inactive {
-  animation: burgerTopReverse 0.5s ease-in-out forwards;
+  animation: burgerTopReverse 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line.bottom.inactive {
-  animation: burgerBottomReverse 0.5s ease-in-out forwards;
+  animation: burgerBottomReverse 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line.center.inactive {
-  animation: burgerCenterReverse 0.5s ease-in-out forwards;
+  animation: burgerCenterReverse 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .burger-line {
@@ -706,29 +706,29 @@ img.social {
 #e-vertical {
   position: relative;
   transform: translateY(-100%);
-  animation: ani-e-vertical 1s linear 0.25s forwards;
+  animation: ani-e-vertical 1s cubic-bezier(.79,.65,.64,.96) 0.25s forwards;
 }
 
 #e-point {
   position: relative;
   transform: translateY(100%);
-  animation: ani-e-point 1s linear 0.25s forwards;
+  animation: ani-e-point 1s cubic-bezier(.79,.65,.64,.96) 0.25s forwards;
 }
 
 #underline-line-1 {
   position: relative;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: uline 1s linear forwards;
-  animation: uline 1s linear forwards;
+  -webkit-animation: uline 1s cubic-bezier(.79,.65,.64,.96) forwards;
+  animation: uline 1s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 #underline-line-2 {
   position: relative;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: uline 2.4s linear forwards;
-  animation: uline 2.4s linear forwards;
+  -webkit-animation: uline 2.4s cubic-bezier(.79,.65,.64,.96) forwards;
+  animation: uline 2.4s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 #indexAll::-webkit-scrollbar {
@@ -767,14 +767,14 @@ img.social {
 .fade-leave-active,
 .fade-enter-active,
 .fade-once-active {
-  transition: opacity 0.25s linear;
+  transition: opacity 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
 .about-leave-active,
 .about-enter-active,
 .about-leave-active #loadOverlay,
 .about-enter-active #loadOverlay {
-  transition: transform 1s linear;
+  transition: transform 1s cubic-bezier(.79,.65,.64,.96);
 }
 
 .about-leave #loadOverlay {
