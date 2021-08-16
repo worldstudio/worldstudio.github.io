@@ -819,6 +819,10 @@ img.social {
     padding: 2rem 3vw 0 3vw;
     grid-gap: 2rem;
   }
+
+  .name {
+    margin-bottom: 0.375rem;
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1499.98px) {
@@ -829,7 +833,7 @@ img.social {
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
   p,
-  p strong {
+  p strong, .name {
     font-size: 0.8125rem;
   }
   h3 {
@@ -839,7 +843,7 @@ img.social {
 
 @media (min-width: 768px) and (max-width: 991.98px) {
   p,
-  p strong {
+  p strong, .name {
     font-size: 0.8125rem;
   }
 
