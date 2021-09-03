@@ -35,7 +35,7 @@ body {
   align-items: center;
   top: 0;
   left: -100%;
-  animation: slideIn 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
+  animation: slideIn 0.75s cubic-bezier(.79,.65,.64,.96) forwards;
 }
 
 .img-container {

@@ -756,7 +756,12 @@ img.social {
 }
 
 /* page transitions */
-.fade-leave-to,
+/* section {
+  opacity: 0;  
+  transition: opacity 0.25s cubic-bezier(.79,.65,.64,.96);
+} */
+
+/* .fade-leave-to,
 .fade-enter,
 .fade-once {
   opacity: 0;
@@ -766,7 +771,7 @@ img.social {
 .fade-enter-to,
 .fade-once-to {
   opacity: 1;
-}
+} */
 
 .fade-leave-active,
 .fade-enter-active,
