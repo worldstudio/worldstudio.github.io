@@ -1,0 +1,204 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,700,800);
+@import url(//fonts.googleapis.com/css?family=Alfa+Slab+One);
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #303030;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.message, .img-parent {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.graphic {
+  background-color: #ed1c24;
+  overflow: hidden;
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 0;
+  left: -100%;
+  animation: slideIn 0.5s cubic-bezier(.79,.65,.64,.96) forwards;
+}
+
+.img-container {
+  width: 100%;
+  padding: 3vw;
+  z-index: 5;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+.message-container {
+  width: 100%;
+  padding: 3vw;
+  
+}
+
+h1,
+p {
+  color: white;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: #ffffff;
+  margin: 0;
+  padding-bottom: 1.25rem;
+}
+
+h1 {
+  font-family: "Alfa Slab One", cursive;
+  font-weight: 100;
+  line-height: 1.2;
+  margin: 0;
+  padding: 0;
+  font-size: 3.5rem;
+}
+
+button {
+  position: relative;
+  font-family: "Alfa Slab One", cursive;
+  background-color: #ed1c24;
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  font-weight: 100;
+  min-width: 150px;
+  border: none;
+  font-size: 0.875rem;
+  z-index: 1;
+}
+
+button::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background-color: #ffffff;
+  transition: 0.25s cubic-bezier(.79,.65,.64,.96);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  button:hover {
+    color: #ed1c24;
+  }
+
+  button:hover::after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1500px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499.98px) {
+  p {
+    font-size: 0.8125rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p {
+    font-size: 0.8125rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  h1 {
+    font-size: 2.4375rem;
+  }
+  p {
+    font-size: 0.8125rem;
+  }
+  button {
+    font-size: 0.7em;
+    min-width: 110px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+  button {
+    font-size: 0.6em;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2.6875rem;
+  }
+  button {
+    font-size: 0.625rem;
+    min-width: 110px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .graphic, .message, .img-parent {
+    width: 100vw;
+    height: 50vh;
+  }
+  .message {
+    align-items: flex-start;
+  }
+
+  .message-container{
+    padding-top: 6vw;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { 
+  .container {
+    flex-direction: column;
+  }
+  .graphic, .message, .img-parent {
+    width: 100vw;
+    height: 50vh;
+  }
+  .message {
+    align-items: flex-start;
+    padding-top: 4vw;
+  }
+}
+
+@keyframes slideIn {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0;
+  }
+}
