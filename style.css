@@ -37,11 +37,6 @@ footer {
   padding: 3vw 3vw 0 3vw;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 3vw;
-  justify-content: flex-end;
-}
-
-.container.top-padding {
-  padding-top: 1vw;
 }
 
 .intro {
@@ -184,8 +179,9 @@ footer {
   position: fixed;
   z-index: 1;
   top: 0;
+  /*left: 0;*/
   overflow-y: hidden;
-  transition: 0.5s cubic-bezier(.79,.65,.64,.96);
+  transition: 0.5s;
 }
 
 .menuBar {
@@ -893,10 +889,6 @@ img.social {
     padding: 4vw 3vw 0 3vw;
   }
 
-  .container.top-padding { 
-    padding-top: 2vw;
-  }
-
   .intro {
     font-size: 5.5vw;
   }
@@ -1009,7 +1001,8 @@ img.social {
   }
 
   .intro {
-    font-size: 5.75vw;
+    font-size: 5.8vw;
+    padding: 3% 0;
     line-height: 1.2;
   }
 
@@ -1017,13 +1010,8 @@ img.social {
     scroll-snap-align: start !important;
   }
 
-  .container {
+  .container.menu-header {
     padding: 6vw 3vw 0 3vw;
-    grid-gap: 6vw;
-  }
-
-  .container.top-padding {
-    padding-top: 3vw;
   }
 
   .section,
@@ -1035,6 +1023,11 @@ img.social {
     padding: 3vw 0;
     margin-bottom: 0;
     grid-column: auto !important;
+  }
+
+  .about .rule-container,
+  .individual .rule-container {
+    padding: 3vw 0;
   }
 
   .about .content-chunk,
@@ -1140,10 +1133,10 @@ img.social {
     transform: translateX(0);
   }
   10% {
-    transform: translateX(-102%);
+    transform: translateX(-100%);
   }
   100% {
-    transform: translateX(-102%);
+    transform: translateX(-100%);
   }
 }
 
@@ -1167,10 +1160,10 @@ img.social {
 
 @keyframes burgerCenterReverse {
   0% {
-    transform: translateX(-102%);
+    transform: translateX(-100%);
   }
   55% {
-    transform: translateX(-102%);
+    transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
