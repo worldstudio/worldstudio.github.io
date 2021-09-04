@@ -37,7 +37,6 @@ footer {
   padding: 3vw 3vw 0 3vw;
   grid-template-columns: repeat(10, 1fr);
   grid-gap: 3vw;
-  justify-content: flex-end;
 }
 
 .container.top-padding {
