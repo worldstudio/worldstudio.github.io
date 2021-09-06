@@ -8,19 +8,29 @@ const headerTextLines = document.getElementsByClassName("line-container");
 barba.use(barbaCss);
 
 barba.hooks.beforeEnter(function (data) {
+  // update body class
   if (data && data.current.namespace !== data.next.namespace) {
     bodyTag.classList = data.next.namespace;
   }
+  // toggle header when going from or to home page, etc
   if (
     data &&
     data.current.container !== undefined &&
     data.next &&
     (data.next.namespace === "main home" ||
       data.current.namespace === "main home") &&
-    data.next !== data.current
+    data.next.namespace !== data.current.namespace
   ) {
     toggleHeader(headerTextLines);
   }
+  // do not re-animate stokes
+  if (data.next.namespace === "main home" && data.current.namespace !== undefined) {
+    const sloganUlines = document.getElementsByClassName("caption-line");
+        Array.prototype.forEach.call(sloganUlines, function (elem) {
+          elem.classList.add("initialized");
+        });
+  }
+
   window.scrollTo({
     top: 0,
     behavior: "smooth",
@@ -32,16 +42,9 @@ barba.init({
     {
       name: "fade",
       beforeOnce(data) {
-        console.log(data);
-        if (data && data.next && data.next.namespace === "main home") {
-          const sloganUlines = document.getElementsByClassName("caption-line");
-          Array.prototype.forEach.call(sloganUlines, function (elem) {
-            elem.classList.add("active");
-          });
-        } else if (
+        if (
           data &&
           data.next &&
-          data.current.container === undefined &&
           data.next.namespace !== "main home"
         ) {
           toggleHeader(headerTextLines);
@@ -78,7 +81,7 @@ barba.init({
       enter() {},
     },
   ],
-  debug: true,
+  // debug: true,
 });
 
 function toggleHeader(headerLines) {
