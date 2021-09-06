@@ -12,6 +12,7 @@ html {
 
 body {
   margin: 0;
+  animation: contentFade 0.5s cubic-bezier(.79,.65,.64,.96) both;
 }
 
 footer {
@@ -265,22 +266,14 @@ img.placeholder.loaded {
   position: relative;
 }
 
-.caption-line.active {
-  background-color: #303030;
-}
 
-.light .caption-line.active {
-  background-color: #ffffff;
+.main.home .caption-line {
+  background-color: #303030;
 }
 
 .main .caption-line::after,
 .main .caption-line::before {
   background: #ffffff;
-}
-
-.light .caption-line::after,
-.light .caption-line::before {
-  background: #303030;
 }
 
 .caption-line::after {
@@ -290,14 +283,13 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   right: 0;
-  transition: width 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s;
+  animation: strokeRight 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s both;
 }
 
-.caption-line.active::after {
-  width: 100%;
-  right: unset;
-  left: 0;
+.main.home .caption-line.initialized, .main.project .caption-line {
+  background-color: #ffffff;
 }
+
 .caption-line::before {
   content: " ";
   width: 0;
@@ -305,13 +297,7 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   left: 0;
-  transition: width 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s;
-}
-
-.caption-line.active::before {
-  width: 100%;
-  left: unset;
-  right: 0;
+  animation: strokeLeft 0.5s cubic-bezier(.79,.65,.64,.96) 0.25s both;
 }
 
 .section img {
@@ -756,20 +742,20 @@ img.social {
 
 /* page transitions */
 .fade-leave-to,
-.fade-enter,
-.fade-once {
+.fade-enter
+{
   opacity: 0;
 }
 
 .fade-leave,
-.fade-enter-to,
-.fade-once-to {
+.fade-enter-to
+{
   opacity: 1;
 }
 
 .fade-leave-active,
-.fade-enter-active,
-.fade-once-active {
+.fade-enter-active
+{
   transition: opacity 0.25s cubic-bezier(.79,.65,.64,.96);
 }
 
@@ -805,7 +791,6 @@ img.social {
 }
 
 /*responsive stuff*/
-
 @media (min-width: 1500px) {
   p {
     font-size: 1rem;
@@ -1124,7 +1109,6 @@ img.social {
 }
 
 /* animations */
-
 @keyframes burgerTop {
   0% {
     transform: rotateZ(0deg);
@@ -1270,6 +1254,38 @@ img.social {
     transform: translateY(100%);
   }
 }
+
+@keyframes contentFade { 
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes strokeLeft { 
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+    left: unset;
+    right: 0;
+  }
+}
+
+@keyframes strokeRight { 
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+    right: unset;
+    left: 0;
+  }
+}
+
 
 #loadOverlay {
   display: none;
