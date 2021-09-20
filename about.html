@@ -5,30 +5,98 @@ tag: light about
 ---
 
 <!-- start of content -->
-<div class="section col-1">
-	<h3 class="grey">About</h3>
+<div class="container about-header">
+	<div class="section col-1-5 ">
+		<span class="grey intro">
+	Islamophobia
+	</span>
 </div>
-<div class="section col-2-5">
-	<div class="flickr-container-parent">
+</div>
+<!-- 
+<div class="container about-card-holder">
+	{% for theme_item in site.theme %}
 
-		<div class="flickr-container">
-			<!-- <iframe src="https://www.flickr.com/photos/worldstudio/37662565825/in/album-72157687574899282/player/"
-				frameborder="0" style="position:absolute;top:0;left:0;width:100%;height:100%;" allowfullscreen
-				webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> -->
-			<a data-flickr-embed="true" href="https://www.flickr.com/photos/worldstudio/albums/72157687574899282"
-				title="AMPL!FY Installations"><img
-					src="https://farm5.staticflickr.com/4567/37662565825_f366f1461f_z.jpg" alt="AMPL!FY Installations"
-					width="820" height="461" /></a>
-			<script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
-		</div>
+	{% assign col_item = forloop.index | modulo: 5 %}
 
+	{% if col_item == 0 %}
+	{% assign col = 5 %}
+	{% else %}
+	{% assign col = col_item %}
+	{% endif %}
+
+	<div class="section col-{{ col }} about-card" >
+
+		<a href="{{ theme_item.url }}.html" class="about-card-link">
+			<p><strong class=" editable">{{ theme_item.issue }}</strong></p>
+
+		{% if theme_item.artist_two == true %}
+		<p class="thing"> {{ theme_item.organization_name }} + <br>{{
+				theme_item.artist_name }} + <br>
+				{{ theme_item.artist_two_name }}</p>
+		{% else %}
+		<p class="thing"> {{ theme_item.organization_name }} + <br>{{
+			theme_item.artist_name }} </p>
+		{% endif %}
+
+		</a>
 	</div>
 
+	{% endfor %}
+</div> -->
 
+<!-- <div class="section col-1">
+	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
+	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
+		<div class="arrow-container">{% include arrow.html %}</div>
+	</div>
+</a>
+	<p>Opening Act +
+		Rafael Esquer</p>
 </div>
 
-{% include rule-break.html %}
+<div class="section col-2">
+	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
+	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
+		<div class="arrow-container">{% include arrow.html %}</div>
+	</div>
+</a>
+	<p>Opening Act +
+		Rafael Esquer</p>
+</div>
 
+<div class="section col-3">
+	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
+	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
+		<div class="arrow-container">{% include arrow.html %}</div>
+	</div>
+</a>
+	<p>Opening Act +
+		Rafael Esquer</p>
+</div>
+<div class="section col-4">
+	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
+	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
+		<div class="arrow-container">{% include arrow.html %}</div>
+	</div>
+</a>
+	<p>Opening Act +
+		Rafael Esquer</p>
+</div>
+<div class="section col-5">
+	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
+	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
+		<div class="arrow-container">{% include arrow.html %}</div>
+	</div>
+</a>
+	<p>Opening Act +
+		Rafael Esquer</p>
+</div> -->
+
+<div class="container">
+{% include rule-break.html %}
+<div class="section col-1">
+	<h3>About</h3>
+</div>
 <div class="section col-2-3 content-text editable">
 	<h3 class="red editable">AMPL!FY is a public art and design initiative that partners an artist or designer with a
 		non-profit organization working on the front lines of social justice to create thought-provoking posters on
@@ -90,6 +158,75 @@ tag: light about
 
 </div>
 
+{% include rule-break.html %}
+
+<div class="section col-1">
+	<h3>Exhibition at Museum of Art and Design</h3>
+	<p><strong>New York, 2017 – 2018</strong></p>
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_MAD_1.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_MAD_2.jpeg" alt="">
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_MAD_3.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_MAD_4.jpeg	" alt="">
+</div>
+
+{% include rule-break.html %}
+
+
+<div class="section col-1">
+	<h3>Installation at Gouverneur Lane and Water Street</h3>
+	<p><strong>New York, 2017 – 2018</strong></p>
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_LM_1.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_LM_2.jpeg" alt="">
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_LM_3.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_LM_4.jpeg	" alt="">
+</div>
+
+{% include rule-break.html %}
+
+<div class="section col-1">
+	<h3>Installation at 125th Street and Lenox Avenue</h3>
+	<p><strong>New York, 2017 – 2018</strong></p>
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_H_1.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_H_2.jpeg" alt="">
+</div>
+
+<div class="section col-2-3">
+	<img src="img/about/Amplify_H_3.jpeg" alt="">
+</div>
+
+<div class="section col-4-5">
+	<img src="img/about/Amplify_H_4.jpeg" alt="">
+</div>
 
 
 {% include rule-break.html %}
@@ -160,4 +297,5 @@ tag: light about
 		{% endfor %}
 
 	</ul>
+</div>
 </div>
