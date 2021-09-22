@@ -7,91 +7,18 @@ tag: light about
 <!-- start of content -->
 <div class="container about-header">
 	<div class="section col-1-5 ">
-		<span class="grey intro">
-	Islamophobia
-	</span>
+		<span class="about-line grey intro"> Art and design for</span>
+		<div class="about-line-container">
+			<div class="theme-container">
+			<span class="about-line red intro"> social justice</span>
+			{% for theme_item in site.theme %}
+			<span class="about-line red intro">{{ theme_item.issue | downcase }}</span>
+			{% endfor %}
+			<span class="about-line red intro"> social justice</span>
+		</div>
+		</div>
 </div>
 </div>
-<!-- 
-<div class="container about-card-holder">
-	{% for theme_item in site.theme %}
-
-	{% assign col_item = forloop.index | modulo: 5 %}
-
-	{% if col_item == 0 %}
-	{% assign col = 5 %}
-	{% else %}
-	{% assign col = col_item %}
-	{% endif %}
-
-	<div class="section col-{{ col }} about-card" >
-
-		<a href="{{ theme_item.url }}.html" class="about-card-link">
-			<p><strong class=" editable">{{ theme_item.issue }}</strong></p>
-
-		{% if theme_item.artist_two == true %}
-		<p class="thing"> {{ theme_item.organization_name }} + <br>{{
-				theme_item.artist_name }} + <br>
-				{{ theme_item.artist_two_name }}</p>
-		{% else %}
-		<p class="thing"> {{ theme_item.organization_name }} + <br>{{
-			theme_item.artist_name }} </p>
-		{% endif %}
-
-		</a>
-	</div>
-
-	{% endfor %}
-</div> -->
-
-<!-- <div class="section col-1">
-	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
-	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
-		<div class="arrow-container">{% include arrow.html %}</div>
-	</div>
-</a>
-	<p>Opening Act +
-		Rafael Esquer</p>
-</div>
-
-<div class="section col-2">
-	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
-	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
-		<div class="arrow-container">{% include arrow.html %}</div>
-	</div>
-</a>
-	<p>Opening Act +
-		Rafael Esquer</p>
-</div>
-
-<div class="section col-3">
-	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
-	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
-		<div class="arrow-container">{% include arrow.html %}</div>
-	</div>
-</a>
-	<p>Opening Act +
-		Rafael Esquer</p>
-</div>
-<div class="section col-4">
-	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
-	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
-		<div class="arrow-container">{% include arrow.html %}</div>
-	</div>
-</a>
-	<p>Opening Act +
-		Rafael Esquer</p>
-</div>
-<div class="section col-5">
-	<a href="http://www.makeartwithpurpose.net/" class="link-arrow">
-	<div class="name-container name"><strong class="grey editable">Access to Arts Education </strong>
-		<div class="arrow-container">{% include arrow.html %}</div>
-	</div>
-</a>
-	<p>Opening Act +
-		Rafael Esquer</p>
-</div> -->
-
 <div class="container">
 {% include rule-break.html %}
 <div class="section col-1">
