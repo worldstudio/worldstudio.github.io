@@ -3,6 +3,7 @@ const menuContent = document.getElementById("myNav");
 const hamburgerElems = document.getElementsByClassName("burger-line");
 const bodyTag = document.querySelector("body");
 const headerTextLines = document.getElementsByClassName("line-container");
+const year = new Date().getFullYear();
 
 // use barba CSS for page transitions empty hook are overwritten by CSS logic
 barba.use(barbaCss);
@@ -35,6 +36,10 @@ barba.hooks.beforeEnter(function (data) {
     top: 0,
     behavior: "smooth",
   });
+
+  ga('set', 'page', window.location.pathname);
+  ga('send', 'pageview');
+
 });
 
 barba.init({
@@ -83,6 +88,12 @@ barba.init({
   ],
   // debug: true,
 });
+
+// update year
+document.addEventListener("DOMContentLoaded", function(event) 
+{
+  document.getElementById("year").innerHTML = year;
+})
 
 function toggleHeader(headerLines) {
   if (!headerLines[0].classList.contains("active")) {
