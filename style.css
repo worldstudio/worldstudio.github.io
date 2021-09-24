@@ -960,6 +960,12 @@ mark {
   .credits.content-text .half-left p:last-child {
     margin-bottom: initial;
   }
+  .image-chunk-title {
+    position: initial;
+    padding-top: 0;
+    grid-column: 1/11;
+    width: initial;
+  }
   .theme-img {
     grid-row: 1;
   }
@@ -998,6 +1004,7 @@ mark {
 }
 
 /* mobile */
+
 @media (max-width: 575.98px) {
   #indexAll, .image-holder {
     display: grid !important;
@@ -1034,6 +1041,8 @@ mark {
   }
   .about .credits {
     display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 3vw;
   }
   .half-left {
     grid-column: 1/6;
