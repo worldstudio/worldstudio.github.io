@@ -711,13 +711,13 @@ mark {
 #e-vertical {
   position: relative;
   transform: translateY(-100%);
-  animation: ani-e-vertical 1s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
+  animation: ani-e-vertical 1s cubic-bezier(.79, .65, .64, .96) 0.45s forwards;
 }
 
 #e-point {
   position: relative;
   transform: translateY(100%);
-  animation: ani-e-point 1s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
+  animation: ani-e-point 1s cubic-bezier(.79, .65, .64, .96) 0.45s forwards;
 }
 
 #underline-line-1 {
