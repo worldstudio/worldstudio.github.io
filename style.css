@@ -280,7 +280,7 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   right: 0;
-  animation: strokeRight 0.5s cubic-bezier(.79, .65, .64, .96) 0.25s both;
+  animation: strokeRight 0.65s cubic-bezier(.79, .65, .64, .96) 0.75s forwards;
 }
 
 .main.home .caption-line.initialized, .main.project .caption-line {
@@ -294,7 +294,7 @@ img.placeholder.loaded {
   position: absolute;
   bottom: 0;
   left: 0;
-  animation: strokeLeft 0.5s cubic-bezier(.79, .65, .64, .96) 0.25s both;
+  animation: strokeLeft 0.65s cubic-bezier(.79, .65, .64, .96) 0.75s forwards;
 }
 
 .section img {
@@ -711,29 +711,27 @@ mark {
 #e-vertical {
   position: relative;
   transform: translateY(-100%);
-  animation: ani-e-vertical 1s cubic-bezier(.79, .65, .64, .96) 0.25s forwards;
+  animation: ani-e-vertical 1s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
 }
 
 #e-point {
   position: relative;
   transform: translateY(100%);
-  animation: ani-e-point 1s cubic-bezier(.79, .65, .64, .96) 0.25s forwards;
+  animation: ani-e-point 1s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
 }
 
 #underline-line-1 {
   position: relative;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: uline 1s cubic-bezier(.79, .65, .64, .96) forwards;
-  animation: uline 1s cubic-bezier(.79, .65, .64, .96) forwards;
+  animation: uline 1s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
 }
 
 #underline-line-2 {
   position: relative;
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
-  -webkit-animation: uline 2.4s cubic-bezier(.79, .65, .64, .96) forwards;
-  animation: uline 2.4s cubic-bezier(.79, .65, .64, .96) forwards;
+  animation: uline 2.4s cubic-bezier(.79, .65, .64, .96) 0.5s forwards;
 }
 
 .image-holder::-webkit-scrollbar, #indexAll::-webkit-scrollbar {
